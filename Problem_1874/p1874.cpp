@@ -10,7 +10,7 @@ int main(void) {
 	int num_of_commands;
 	cin >> num_of_commands;
 
-	stack<char> s;	//사용할 스택
+	stack<int> s;	//사용할 스택
 	int input_number;	//입력 숫자
 	int counter = 1;	// 수열 이용에 필요한 카운터
 	int is_vaild = 1;	//수열을 만들 수 있는지
