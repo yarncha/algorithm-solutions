@@ -6,45 +6,68 @@ using namespace std;
 int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
+	// 초기 문자열을 받아옴
+	string initial_str;
+	cin >> initial_str;
+
+	//사용할 스택
+	stack<char> left;	//커서 왼쪽 문자열들
+	stack<char> right;	//커서 오른쪽 문자열들
+
+	// 맨 처음에는 모든 문자들이 커서 왼쪽에 위치하므로 left stack에 넣어준다.
+	for (int j = 0; j < initial_str.size(); j++) {
+		left.push(initial_str[j]);
+	}
+
 	// 몇 줄이 주어질지를 받아오고 이를 for문으로 반복
 	int num_of_commands;
 	cin >> num_of_commands;
+	cin.ignore();
 
-	stack<int> s;	//사용할 스택
-	int input_number;	//입력 숫자
-	int counter = 1;	// 수열 이용에 필요한 카운터
-	int is_vaild = 1;	//수열을 만들 수 있는지
-	string result = "";	//결과
-
+	string command;	//입력 명령어
 	for (int i = 0; i < num_of_commands; i++)
 	{
-		cin >> input_number;
+		//한 줄 입력받기
+		getline(cin, command);
+		//command.push_back('\n');
 
-		// 입력한 숫자가 스택에 들어간 것보다 작을 경우는 counter이용해서 push
-		if (s.size() == 0 || input_number > s.top()) {
-			while (counter <= input_number)
-			{
-				s.push(counter);
-				result.push_back('+');
-				result.push_back('\n');
-				//result += '+';
-				counter++;
+		if (command == "L")
+		{
+			if (!left.size() == 0) {
+				right.push(left.top());
+				left.pop();
 			}
 		}
-
-		// pop을 할 때에는 top에 입력한 원소가 있어야함
-		if (s.top() == input_number) {
-			s.pop();
-			result.push_back('-');
-			result.push_back('\n');
-			//result += '-';
+		else if (command=="D")
+		{
+			if (!right.size() == 0) {
+				left.push(right.top());
+				right.pop();
+			}
 		}
-		else {
-			is_vaild = 0;
-			//break;
+		else if (command=="B")
+		{
+			if (!left.size() == 0) {
+				left.pop();
+			}
 		}
-
+		else if (command[0] == 'P') {
+			left.push(command[2]);
+		}
 	}
+
+	// 모든 명령어를 수행한 후 편집기에 있는 문자열 구하기
+	while (!left.empty()) {
+		right.push(left.top());
+		left.pop();
+	}
+
+	while (!right.empty())
+	{
+		cout << right.top();
+		right.pop();
+	}
+
 
 	return 0;
 }
