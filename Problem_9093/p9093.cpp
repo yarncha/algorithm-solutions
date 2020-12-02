@@ -17,14 +17,14 @@ int main(void) {
 
 	string input_string;
 	string result_string = "";
-	while (num_of_commands!=0)
-	{	
+	while (num_of_commands != 0)
+	{
 		getline(cin, input_string);
 		input_string.push_back('\n');
 
 		char current_char;
 		for (int j = 0; j < input_string.size(); j++)
-		{	
+		{
 			current_char = input_string[j];
 			//공백일 경우 전부 result_string로 내보내기
 			if (current_char == ' ' || current_char == '\n') {
