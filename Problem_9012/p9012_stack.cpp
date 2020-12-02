@@ -57,6 +57,5 @@ int main(void) {
 		num_of_commands--;
 	}
 
-
 	return 0;
 }
