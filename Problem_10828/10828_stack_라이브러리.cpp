@@ -3,7 +3,6 @@
 #include <stack>
 using namespace std;
 
-
 int main(void) {
 	ios_base::sync_with_stdio(false);
 	cin.tie(nullptr);
@@ -26,7 +25,7 @@ int main(void) {
 			s.push(value);
 		}
 		else if (current_command == "pop") {
-			if (s.empty()){
+			if (s.empty()) {
 				cout << -1 << "\n";
 			}
 			else {
@@ -50,5 +49,6 @@ int main(void) {
 			}
 		}
 	}
+
 	return 0;
 }
