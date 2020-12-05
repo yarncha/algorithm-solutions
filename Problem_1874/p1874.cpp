@@ -53,5 +53,6 @@ int main(void) {
 	else {
 		cout << "NO\n";
 	}
+
 	return 0;
 }
