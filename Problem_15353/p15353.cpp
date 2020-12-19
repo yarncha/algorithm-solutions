@@ -39,20 +39,31 @@ int main() {
 	{
 		sum = (num01[x] - '0') + carry;
 
+		if (sum > 9) {
+			carry = 1;
+			sum = sum - 10;
+		}
+		else {
+			carry = 0;
+		}
+
 		result = to_string(sum) + result;
-
-		carry = 0;
 		x = x - 1;
-
 	}
 
 	while (y >= 0)
 	{
 		sum = (num02[y] - '0') + carry;
 
-		result = to_string(sum) + result;
+		if (sum > 9) {
+			carry = 1;
+			sum = sum - 10;
+		}
+		else {
+			carry = 0;
+		}
 
-		carry = 0;
+		result = to_string(sum) + result;
 		y = y - 1;
 	}
 
