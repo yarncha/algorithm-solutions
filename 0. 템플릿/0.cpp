@@ -8,6 +8,8 @@ int main(void) {
 	//cin.tie(nullptr);
 	//cout.tie(nullptr);
 
+	int a, b;
+	cin >> a >> b;
 	cout << "qwer";
 	return 0;
 }
