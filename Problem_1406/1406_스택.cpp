@@ -68,6 +68,5 @@ int main(void) {
 		right.pop();
 	}
 
-
 	return 0;
 }
