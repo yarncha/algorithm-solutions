@@ -47,3 +47,4 @@
 *.ilk
 Project1000/Debug/Project1000.vcxproj.FileListAbsolute.txt
 .vs/Algorithm_BJ/v16/.suo
+*.enc
