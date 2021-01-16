@@ -19,8 +19,7 @@ int main(void) {
 
 	int a, b, gcd_value;
 
-	for (int i = 0; i < input_command; i++)
-	{
+	for (int i = 0; i < input_command; i++) {
 		cin >> a >> b;
 		gcd_value = gcd(a, b);
 		cout << gcd_value * (a / gcd_value) * (b / gcd_value) << "\n";
