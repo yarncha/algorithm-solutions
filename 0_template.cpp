@@ -14,6 +14,5 @@ void problem() {
 
 int main(void) {
 	problem();
-
 	return 0;
 }
