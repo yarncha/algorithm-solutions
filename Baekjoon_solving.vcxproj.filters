@@ -48,7 +48,7 @@
     <ClCompile Include="10866.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10869_수학.cpp">
+    <ClCompile Include="10869.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10872.cpp">
@@ -60,7 +60,7 @@
     <ClCompile Include="11726.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="15353_큰_수_연산.cpp">
+    <ClCompile Include="15353.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="17087.cpp">
@@ -163,6 +163,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10718.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10998.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

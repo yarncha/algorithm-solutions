@@ -39,20 +39,25 @@
 	Stack
 * [10828번 스택(구현)](https://github.com/yarncha/baekjoon/blob/master/10828_구현.cpp),[(라이브러리 사용)](https://github.com/yarncha/baekjoon/blob/master/10828_라이브러리_사용.cpp)
 	Stack
-* [10845번 큐](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
-* [10866번 덱](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
-* [10869번 사칙연산](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
-* [10872번 팩토리얼](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
-* [10950번 A+B - 3](https://github.com/yarncha/baekjoon/blob/master/1000.cpp)
-* [10951번 A+B - 4](https://github.com/yarncha/baekjoon/blob/master/1000.cpp)
-* [10952번 A+B - 5](https://github.com/yarncha/baekjoon/blob/master/1000.cpp)
-* [11021번 A+B - 7](https://github.com/yarncha/baekjoon/blob/master/1000.cpp)
-* [11022번 A+B - 8](https://github.com/yarncha/baekjoon/blob/master/1000.cpp)
-
-
-* [17413번 단어 뒤집기2](https://github.com/yarncha/baekjoon/blob/master/1000.cpp)
+* [10845번 큐(구현)](https://github.com/yarncha/baekjoon/blob/master/10845_큐_구현.cpp),[(라이브러리 사용)](https://github.com/yarncha/baekjoon/blob/master/10845_큐_라이브러리_사용.cpp)
+	Queue
+* [10866번 덱](https://github.com/yarncha/baekjoon/blob/master/10866.cpp)
+	Stack, Queue
+* [10869번 사칙연산](https://github.com/yarncha/baekjoon/blob/master/10869.cpp)
+* [10872번 팩토리얼](https://github.com/yarncha/baekjoon/blob/master/10872.cpp)
+* [10950번 A+B - 3](https://github.com/yarncha/baekjoon/blob/master/10950.cpp)
+* [10951번 A+B - 4](https://github.com/yarncha/baekjoon/blob/master/10951.cpp)
+* [10952번 A+B - 5](https://github.com/yarncha/baekjoon/blob/master/10952.cpp)
+* [10998번 AxB](https://github.com/yarncha/baekjoon/blob/master/10998.cpp)
+* [11021번 A+B - 7](https://github.com/yarncha/baekjoon/blob/master/11021.cpp)
+* [11022번 A+B - 8](https://github.com/yarncha/baekjoon/blob/master/11022.cpp)
+* [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
+* [17298번 오큰수](https://github.com/yarncha/baekjoon/blob/master/17298.cpp)
+	Stack
+* [17299번 오등큰수](https://github.com/yarncha/baekjoon/blob/master/17299.cpp)
+	Stack
+* [17413번 단어 뒤집기 2](https://github.com/yarncha/baekjoon/blob/master/17413.cpp)
   Stack
-
 
 </div>
 </details>
@@ -74,10 +79,10 @@
 * [9613번 ](https://github.com/yarncha/baekjoon/blob/master/9613.cpp)
 * [10172번 개](https://github.com/yarncha/baekjoon/blob/master/10172.cpp)
 	이스케이프 문자
-* [1463번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
-* [1463번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
-* [1463번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
-* [1463번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
+* [11052번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
+* [11726번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
+* [17087번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
+* [17103번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
 
 </div>
 </details>
