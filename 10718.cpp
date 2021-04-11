@@ -7,9 +7,7 @@ void solution() {
 	//cin.tie(nullptr);
 	//cout.tie(nullptr);
 
-	int a, b;
-	cin >> a >> b;
-	cout << "qwer";
+	cout << "강한친구 대한육군\n강한친구 대한육군";
 }
 
 int main(void) {

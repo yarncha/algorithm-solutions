@@ -8,8 +8,9 @@ void solution() {
 	//cout.tie(nullptr);
 
 	int a, b;
-	cin >> a >> b;
-	cout << "qwer";
+	scanf("%d %d", &a, &b);
+	printf("%d", a / b);
+	cout << result_string << "\n";
 }
 
 int main(void) {

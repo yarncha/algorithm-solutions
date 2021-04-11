@@ -9,7 +9,12 @@ void solution() {
 
 	int a, b;
 	cin >> a >> b;
-	cout << "qwer";
+	cout << "|\_/|
+		| q p|   /
+}
+(0)"""\
+|" ^ "`    |
+|| _ /= \\__ | ";
 }
 
 int main(void) {

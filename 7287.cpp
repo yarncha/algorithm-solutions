@@ -7,9 +7,7 @@ void solution() {
 	//cin.tie(nullptr);
 	//cout.tie(nullptr);
 
-	int a, b;
-	cin >> a >> b;
-	cout << "qwer";
+	cout << "35\nyamcha";
 }
 
 int main(void) {
