@@ -9,7 +9,9 @@
 <details open>
 <summary>Solved</summary>
 <div markdown="1">
-1. 0000. 문제 샘플
+
+1. 1000번 A+B
+2. 17413번 단어 뒤집기2
 </div>
 </details>
 

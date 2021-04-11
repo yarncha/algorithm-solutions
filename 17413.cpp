@@ -3,7 +3,7 @@
 #include <stack>
 using namespace std;
 
-int main(void) {
+int qwer(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
 	// 단어를 뒤집기 위한 스택

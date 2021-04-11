@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0_template.cpp">
+    <ClCompile Include="0.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="17413_단어뒤집기2.cpp">
+    <ClCompile Include="17413.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1000. A+B\1000.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
