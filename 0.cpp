@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void solution() {
+void solution_0() {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 	//ios_base::sync_with_stdio(false);
 	//cin.tie(nullptr);
@@ -12,7 +12,7 @@ void solution() {
 	cout << "qwer";
 }
 
-int main(void) {
-	solution();
-	return 0;
-}
+//int main(void) {
+//	solution_0();
+//	return 0;
+//}
