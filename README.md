@@ -16,7 +16,7 @@
   Queue
 * [1406번 에디터](https://github.com/yarncha/baekjoon/blob/master/1406.cpp)
   Stack
-* [1676번 팩토리얼 0의 개수](https://github.com/yarncha/baekjoon/blob/master/1676.cpp)
+* ✨[1676번 팩토리얼 0의 개수](https://github.com/yarncha/baekjoon/blob/master/1676.cpp)
 	팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨
 * [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
 	Stack
@@ -26,7 +26,7 @@
 	gcd
 * [1978번 소수 찾기](https://github.com/yarncha/baekjoon/blob/master/1978.cpp)
 	어떤 수가 소수인지 판단
-* [2004번 ](https://github.com/yarncha/baekjoon/blob/master/2004.cpp)
+* ✨[2004번 조합 0의 개수](https://github.com/yarncha/baekjoon/blob/master/2004.cpp)
 	조합에서 0의 개수 구하기, 팩토리얼과 비슷, 이번엔 5와 2 같이 세기
 * [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
