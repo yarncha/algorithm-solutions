@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <queue>
 using namespace std;
@@ -10,7 +10,7 @@ int main(void) {
 	cin >> a >> b;
 
 	queue<int> q;
-	//Å¥¿¡ ¼ıÀÚ ³Ö±â
+	//íì— ìˆ«ì ë„£ê¸°
 	for (int i = 1; i <= a; i++)
 	{
 		q.push(i);
@@ -18,7 +18,7 @@ int main(void) {
 
 	cout << "<";
 
-	//b¹øÂ° »ç¶÷ ¼±ÅÃ
+	//bë²ˆì§¸ ì‚¬ëŒ ì„ íƒ
 	int to_remove;
 	while (q.size() > 1)
 	{
