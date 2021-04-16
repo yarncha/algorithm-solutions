@@ -24,6 +24,7 @@
 	범위 내의 모든 소수 구하기, 에라토스테네스의 체
 * [1934번 최소공배수](https://github.com/yarncha/baekjoon/blob/master/1934.cpp)
 	gcd
+* [1935번 후위 표기식2](https://github.com/yarncha/baekjoon/blob/master/1935.cpp)
 * [1978번 소수 찾기](https://github.com/yarncha/baekjoon/blob/master/1978.cpp)
 	어떤 수가 소수인지 판단
 * ✨[2004번 조합 0의 개수](https://github.com/yarncha/baekjoon/blob/master/2004.cpp)
@@ -76,7 +77,6 @@
 	단순 계산
 * [1373번 ](https://github.com/yarncha/baekjoon/blob/master/1373.cpp)
 * [1463번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
-* [1935번 ](https://github.com/yarncha/baekjoon/blob/master/1935.cpp)
 * [2309번 ](https://github.com/yarncha/baekjoon/blob/master/2309.cpp)
 * [9095번 ](https://github.com/yarncha/baekjoon/blob/master/9095.cpp)
 * [9613번 ](https://github.com/yarncha/baekjoon/blob/master/9613.cpp)
