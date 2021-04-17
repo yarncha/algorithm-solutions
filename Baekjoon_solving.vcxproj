@@ -168,6 +168,7 @@
     <ClCompile Include="10820.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="10824.cpp" />
     <ClCompile Include="10828_구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -212,6 +213,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="11655.cpp" />
+    <ClCompile Include="11656.cpp" />
     <ClCompile Include="11726.cpp" />
     <ClCompile Include="1373.cpp" />
     <ClCompile Include="1406.cpp">

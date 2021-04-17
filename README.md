@@ -12,6 +12,8 @@
 
 * [1000번 A+B](https://github.com/yarncha/baekjoon/blob/master/1000.cpp)
 * [1001번 A-B](https://github.com/yarncha/baekjoon/blob/master/1001.cpp)
+* [1008번 A/B](https://github.com/yarncha/baekjoon/blob/master/1008.cpp)
+	소수점 아래 숫자 고정
 * [1158번 요세푸스 문제](https://github.com/yarncha/baekjoon/blob/master/1158.cpp)
   Queue
 * [1406번 에디터](https://github.com/yarncha/baekjoon/blob/master/1406.cpp)
@@ -82,8 +84,7 @@
 <summary>Solving</summary>
 <div markdown="1">
 
-* [1008번 A/B](https://github.com/yarncha/baekjoon/blob/master/1008.cpp)
-	단순 계산
+
 * [1373번 ](https://github.com/yarncha/baekjoon/blob/master/1373.cpp)
 * [1463번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
 * [2309번 ](https://github.com/yarncha/baekjoon/blob/master/2309.cpp)
