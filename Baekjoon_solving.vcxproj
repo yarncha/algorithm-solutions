@@ -162,6 +162,8 @@
     <ClCompile Include="10808.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="10809.cpp" />
+    <ClCompile Include="10820.cpp" />
     <ClCompile Include="10828_구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
