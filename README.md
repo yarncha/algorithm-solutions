@@ -20,6 +20,8 @@
 	팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨
 * [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
 	Stack
+* [1918번 후위 표기식](https://github.com/yarncha/baekjoon/blob/master/1918.cpp)
+	차량기지 알고리즘(중위 표기법을 후위 표기법으로 변환)
 * [1929번 소수 구하기](https://github.com/yarncha/baekjoon/blob/master/1929.cpp)
 	범위 내의 모든 소수 구하기, 에라토스테네스의 체
 * [1934번 최소공배수](https://github.com/yarncha/baekjoon/blob/master/1934.cpp)
@@ -82,10 +84,10 @@
 * [9613번 ](https://github.com/yarncha/baekjoon/blob/master/9613.cpp)
 * [10172번 개](https://github.com/yarncha/baekjoon/blob/master/10172.cpp)
 	이스케이프 문자
-* [11052번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
-* [11726번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
-* [17087번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
-* [17103번 ](https://github.com/yarncha/baekjoon/blob/master/1463.cpp)
+* [11052번 ](https://github.com/yarncha/baekjoon/blob/master/11052.cpp)
+* [11726번 ](https://github.com/yarncha/baekjoon/blob/master/11726.cpp)
+* [17087번 ](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
+* [17103번 ](https://github.com/yarncha/baekjoon/blob/master/17103.cpp)
 
 </div>
 </details>
