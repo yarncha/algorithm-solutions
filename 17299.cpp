@@ -3,7 +3,7 @@
 #include <stack>
 #include <vector>
 using namespace std;
-int frequency[1000001];	//¼öÀÇ ºóµµ¼ö¸¦ ÀúÀåÇÒ º¤ÅÍ
+int frequency[1000001];	//ìˆ˜ì˜ ë¹ˆë„ìˆ˜ë¥¼ ì €ì¥í•  ë²¡í„°
 
 int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
@@ -11,17 +11,17 @@ int main(void) {
 	int num_of_input, input;
 	cin >> num_of_input;
 
-	stack<int> s;	// ÀÔ·Â ¼ö¿­ÀÇ ÀÎµ¦½º¸¦ ÀúÀåÇÒ ½ºÅÃ
-	vector<int> inputs(num_of_input);	// ÀÔ·Â ¼ö¿­ÀÇÀ» ÀúÀåÇÒ º¤ÅÍ
-	vector<int> ngf(num_of_input);	// ÀÔ·Â ¼ö¿­ÀÇ ¿ÀµîÅ«¼ö¸¦ ÀúÀåÇÒ º¤ÅÍ
+	stack<int> s;	// ì…ë ¥ ìˆ˜ì—´ì˜ ì¸ë±ìŠ¤ë¥¼ ì €ì¥í•  ìŠ¤íƒ
+	vector<int> inputs(num_of_input);	// ì…ë ¥ ìˆ˜ì—´ì˜ì„ ì €ì¥í•  ë²¡í„°
+	vector<int> ngf(num_of_input);	// ì…ë ¥ ìˆ˜ì—´ì˜ ì˜¤ë“±í°ìˆ˜ë¥¼ ì €ì¥í•  ë²¡í„°
 
-	//Ã³À½ ÀÔ·ÂÀº ¸ÕÀú ³Ö¾îµÎ±â
+	//ì²˜ìŒ ì…ë ¥ì€ ë¨¼ì € ë„£ì–´ë‘ê¸°
 	cin >> input;
 	inputs[0] = input;
 	frequency[input] = frequency[input] + 1;
 	s.push(0);
 
-	//ºóµµ¼ö °è»ê ¹Ì¸®
+	//ë¹ˆë„ìˆ˜ ê³„ì‚° ë¯¸ë¦¬
 	for (int k = 1; k < num_of_input; k++)
 	{
 		cin >> input;
@@ -29,7 +29,7 @@ int main(void) {
 		frequency[input] = frequency[input] + 1;
 	}
 
-	// µÎ ¹øÂ° ÀÔ·ÂºÎÅÍ´Â ½ºÅÃÀÇ °ª°ú ºñ±³ÇØ¼­ ³Ö±â
+	// ë‘ ë²ˆì§¸ ì…ë ¥ë¶€í„°ëŠ” ìŠ¤íƒì˜ ê°’ê³¼ ë¹„êµí•´ì„œ ë„£ê¸°
 	for (int i = 1; i < num_of_input; i++)
 	{
 		while (!s.empty() && frequency[inputs[i]] > frequency[inputs[s.top()]]) {
@@ -39,7 +39,7 @@ int main(void) {
 		s.push(i);
 	}
 
-	// ¾ÆÁ÷ Ã³¸® ¾ÈµÈ°ÍµéÀº -1·Î ÁöÁ¤ÇØÁÖ±â
+	// ì•„ì§ ì²˜ë¦¬ ì•ˆëœê²ƒë“¤ì€ -1ë¡œ ì§€ì •í•´ì£¼ê¸°
 	while (!s.empty())
 	{
 		ngf[s.top()] = -1;

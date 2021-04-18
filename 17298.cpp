@@ -10,16 +10,16 @@ int main(void) {
 	int num_of_input, input;
 	cin >> num_of_input;
 
-	stack<int> s;	// ÀÔ·Â ¼ö¿­ÀÇ ÀÎµ¦½º¸¦ ÀúÀåÇÒ ½ºÅÃ
-	vector<int> inputs(num_of_input);	// ÀÔ·Â ¼ö¿­À» ÀúÀåÇÒ º¤ÅÍ
-	vector<int> nge(num_of_input);	// ÀÔ·Â ¼ö¿­ÀÇ ¿ÀÅ«¼ö¸¦ ÀúÀåÇÒ º¤ÅÍ
+	stack<int> s;	// ì…ë ¥ ìˆ˜ì—´ì˜ ì¸ë±ìŠ¤ë¥¼ ì €ì¥í•  ìŠ¤íƒ
+	vector<int> inputs(num_of_input);	// ì…ë ¥ ìˆ˜ì—´ì„ ì €ì¥í•  ë²¡í„°
+	vector<int> nge(num_of_input);	// ì…ë ¥ ìˆ˜ì—´ì˜ ì˜¤í°ìˆ˜ë¥¼ ì €ì¥í•  ë²¡í„°
 
-	//Ã³À½ ÀÔ·ÂÀº ¸ÕÀú ³Ö¾îµÎ±â
+	//ì²˜ìŒ ì…ë ¥ì€ ë¨¼ì € ë„£ì–´ë‘ê¸°
 	cin >> input;
 	inputs[0] = input;
 	s.push(0);
 
-	// µÎ ¹øÂ° ÀÔ·ÂºÎÅÍ´Â ½ºÅÃÀÇ °ª°ú ºñ±³ÇØ¼­ ³Ö±â
+	// ë‘ ë²ˆì§¸ ì…ë ¥ë¶€í„°ëŠ” ìŠ¤íƒì˜ ê°’ê³¼ ë¹„êµí•´ì„œ ë„£ê¸°
 	for (int i = 1; i < num_of_input; i++)
 	{
 		cin >> input;
@@ -32,7 +32,7 @@ int main(void) {
 		s.push(i);
 	}
 
-	// ¾ÆÁ÷ Ã³¸® ¾ÈµÈ°ÍµéÀº -1·Î ÁöÁ¤ÇØÁÖ±â
+	// ì•„ì§ ì²˜ë¦¬ ì•ˆëœê²ƒë“¤ì€ -1ë¡œ ì§€ì •í•´ì£¼ê¸°
 	while (!s.empty())
 	{
 		nge[s.top()] = -1;

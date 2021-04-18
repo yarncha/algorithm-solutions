@@ -3,16 +3,16 @@
 #include <stack>
 using namespace std;
 
-int qwer(void) {
+int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-	// ´Ü¾î¸¦ µÚÁı±â À§ÇÑ ½ºÅÃ
+	// ë‹¨ì–´ë¥¼ ë’¤ì§‘ê¸° ìœ„í•œ ìŠ¤íƒ
 	stack<char> s;
 
-	//ÅÂ±× ¾ÈÀÎÁö ±¸ºĞÇÒ bool
+	//íƒœê·¸ ì•ˆì¸ì§€ êµ¬ë¶„í•  bool
 	bool in_tag = false;
 
-	// Ã¹¹øÂ° ÁÙ¿¡¼­ ¹®ÀÚ ¿­ ¹Ş¾Æ¿À±â
+	// ì²«ë²ˆì§¸ ì¤„ì—ì„œ ë¬¸ì ì—´ ë°›ì•„ì˜¤ê¸°
 	string input_string;
 	getline(cin, input_string);
 	input_string.push_back('\n');
