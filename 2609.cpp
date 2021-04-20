@@ -2,7 +2,7 @@
 #include<algorithm>
 using namespace std;
 
-// ÃÖ´ë°ø¾à¼ö¸¦ ±¸ÇÏ´Â °ø½Ä
+// ìµœëŒ€ê³µì•½ìˆ˜ë¥¼ êµ¬í•˜ëŠ” ê³µì‹
 int gcd(int x, int y) {
 	while (y > 0)
 	{
@@ -12,7 +12,7 @@ int gcd(int x, int y) {
 	return x;
 }
 
-// ÃÖ¼Ò°ø¹è¼ö¸¦ ±¸ÇÏ´Â °ø½Ä
+// ìµœì†Œê³µë°°ìˆ˜ë¥¼ êµ¬í•˜ëŠ” ê³µì‹
 int lcm(int x, int y, int gcd_value) {
 	return x * y / gcd_value;
 }

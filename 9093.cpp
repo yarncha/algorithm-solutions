@@ -7,10 +7,10 @@ using namespace std;
 int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-	// ´Ü¾î¸¦ µÚÁı±â À§ÇÑ ½ºÅÃ
+	// ë‹¨ì–´ë¥¼ ë’¤ì§‘ê¸° ìœ„í•œ ìŠ¤íƒ
 	stack<char> s;
 
-	// ¸î ÁÙÀÌ ÁÖ¾îÁúÁö¸¦ ¹Ş¾Æ¿À°í ÀÌ¸¦ for¹®À¸·Î ¹İº¹
+	// ëª‡ ì¤„ì´ ì£¼ì–´ì§ˆì§€ë¥¼ ë°›ì•„ì˜¤ê³  ì´ë¥¼ forë¬¸ìœ¼ë¡œ ë°˜ë³µ
 	int num_of_commands;
 	cin >> num_of_commands;
 	cin.ignore();
@@ -26,7 +26,7 @@ int main(void) {
 		for (int j = 0; j < input_string.size(); j++)
 		{
 			current_char = input_string[j];
-			//°ø¹éÀÏ °æ¿ì ÀüºÎ result_string·Î ³»º¸³»±â
+			//ê³µë°±ì¼ ê²½ìš° ì „ë¶€ result_stringë¡œ ë‚´ë³´ë‚´ê¸°
 			if (current_char == ' ' || current_char == '\n') {
 				while (!s.empty())
 				{

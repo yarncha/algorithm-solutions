@@ -5,7 +5,7 @@ using namespace std;
 int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-	// ¸î ÁÙÀÌ ÁÖ¾îÁúÁö¸¦ ¹Ş¾Æ¿À°í ÀÌ¸¦ for¹®À¸·Î ¹İº¹
+	// ëª‡ ì¤„ì´ ì£¼ì–´ì§ˆì§€ë¥¼ ë°›ì•„ì˜¤ê³  ì´ë¥¼ forë¬¸ìœ¼ë¡œ ë°˜ë³µ
 	int num_of_commands;
 	cin >> num_of_commands;
 	cin.ignore();
@@ -13,15 +13,15 @@ int main(void) {
 	string input_string;
 	while (num_of_commands != 0)
 	{
-		//ÇÑ ÁÙ ÀÔ·Â¹Ş±â
+		//í•œ ì¤„ ì…ë ¥ë°›ê¸°
 		getline(cin, input_string);
 		input_string.push_back('\n');
 
-		char current_char;	//ÇöÀç ±ÛÀÚ
-		int is_vaild = 0;	//ÀÌ ÁÙÀÇ °ıÈ£ °ü°è°¡ ¿Ã¹Ù¸¥Áö
+		char current_char;	//í˜„ì¬ ê¸€ì
+		int is_vaild = 0;	//ì´ ì¤„ì˜ ê´„í˜¸ ê´€ê³„ê°€ ì˜¬ë°”ë¥¸ì§€
 		for (int j = 0; j < input_string.size(); j++)
 		{
-			// ÀÔ·Â¹ŞÀº °ÍÀ» ÇÑ ±ÛÀÚ¾¿ °¡Á®¿È
+			// ì…ë ¥ë°›ì€ ê²ƒì„ í•œ ê¸€ìì”© ê°€ì ¸ì˜´
 			current_char = input_string[j];
 			if (current_char == '(') {
 				is_vaild++;
@@ -33,13 +33,13 @@ int main(void) {
 				break;
 			}
 
-			//À½¼ö°¡ µÇ¾úÀ» °æ¿ì´Â ÀÌ¹Ì ¿Ã¹Ù¸£Áö ¾ÊÀº °ıÈ£°ü°è
+			//ìŒìˆ˜ê°€ ë˜ì—ˆì„ ê²½ìš°ëŠ” ì´ë¯¸ ì˜¬ë°”ë¥´ì§€ ì•Šì€ ê´„í˜¸ê´€ê³„
 			if (is_vaild < 0) {
 				break;
 			}
 		}
 
-		// ÀÔ·Â¹ŞÀº °ıÈ£µéÀÌ ¿Ã¹Ù¸¥Áö Æò°¡
+		// ì…ë ¥ë°›ì€ ê´„í˜¸ë“¤ì´ ì˜¬ë°”ë¥¸ì§€ í‰ê°€
 		if (is_vaild == 0) {
 			cout << "YES" << "\n";
 		}
