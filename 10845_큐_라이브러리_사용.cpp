@@ -11,10 +11,10 @@ int main(void) {
 	queue<int> q;
 
 	int num_of_commands;
-	string current_command;     //ÀÔ·Â¹ÞÀ» ¸í·É
-	int value;      //ÀÔ·Â¹ÞÀ» °ª
+	string current_command;     //ìž…ë ¥ë°›ì„ ëª…ë ¹
+	int value;      //ìž…ë ¥ë°›ì„ ê°’
 	cin >> num_of_commands;
-	// ¸í·ÉÀÇ °¹¼ö¸¦ ÀÔ·Â¹Þ°í for¹®¿¡¼­ ÇØ´ç °¹¼ö¸¸Å­ µ¹¸°´Ù.
+	// ëª…ë ¹ì˜ ê°¯ìˆ˜ë¥¼ ìž…ë ¥ë°›ê³  forë¬¸ì—ì„œ í•´ë‹¹ ê°¯ìˆ˜ë§Œí¼ ëŒë¦°ë‹¤.
 
 	for (int i = 0; i < num_of_commands; i++)
 	{
