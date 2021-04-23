@@ -75,6 +75,8 @@
 * [11656번 접미사 배열](https://github.com/yarncha/baekjoon/blob/master/11656.cpp)
 	정렬
 * [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
+* [17087번 숨바꼭질 6](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
+	gcd (최대공약수)
 * [17298번 오큰수](https://github.com/yarncha/baekjoon/blob/master/17298.cpp)
 	Stack
 * [17299번 오등큰수](https://github.com/yarncha/baekjoon/blob/master/17299.cpp)
