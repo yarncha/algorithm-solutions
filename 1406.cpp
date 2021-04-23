@@ -6,28 +6,28 @@ using namespace std;
 int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-	// ÃÊ±â ¹®ÀÚ¿­À» ¹Ş¾Æ¿È
+	// ì´ˆê¸° ë¬¸ìì—´ì„ ë°›ì•„ì˜´
 	string initial_str;
 	cin >> initial_str;
 
-	//»ç¿ëÇÒ ½ºÅÃ
-	stack<char> left;	//Ä¿¼­ ¿ŞÂÊ ¹®ÀÚ¿­µé
-	stack<char> right;	//Ä¿¼­ ¿À¸¥ÂÊ ¹®ÀÚ¿­µé
+	//ì‚¬ìš©í•  ìŠ¤íƒ
+	stack<char> left;	//ì»¤ì„œ ì™¼ìª½ ë¬¸ìì—´ë“¤
+	stack<char> right;	//ì»¤ì„œ ì˜¤ë¥¸ìª½ ë¬¸ìì—´ë“¤
 
-	// ¸Ç Ã³À½¿¡´Â ¸ğµç ¹®ÀÚµéÀÌ Ä¿¼­ ¿ŞÂÊ¿¡ À§Ä¡ÇÏ¹Ç·Î left stack¿¡ ³Ö¾îÁØ´Ù.
+	// ë§¨ ì²˜ìŒì—ëŠ” ëª¨ë“  ë¬¸ìë“¤ì´ ì»¤ì„œ ì™¼ìª½ì— ìœ„ì¹˜í•˜ë¯€ë¡œ left stackì— ë„£ì–´ì¤€ë‹¤.
 	for (int j = 0; j < initial_str.size(); j++) {
 		left.push(initial_str[j]);
 	}
 
-	// ¸î ÁÙÀÌ ÁÖ¾îÁúÁö¸¦ ¹Ş¾Æ¿À°í ÀÌ¸¦ for¹®À¸·Î ¹İº¹
+	// ëª‡ ì¤„ì´ ì£¼ì–´ì§ˆì§€ë¥¼ ë°›ì•„ì˜¤ê³  ì´ë¥¼ forë¬¸ìœ¼ë¡œ ë°˜ë³µ
 	int num_of_commands;
 	cin >> num_of_commands;
 	cin.ignore();
 
-	string command;	//ÀÔ·Â ¸í·É¾î
+	string command;	//ì…ë ¥ ëª…ë ¹ì–´
 	for (int i = 0; i < num_of_commands; i++)
 	{
-		//ÇÑ ÁÙ ÀÔ·Â¹Ş±â
+		//í•œ ì¤„ ì…ë ¥ë°›ê¸°
 		getline(cin, command);
 		//command.push_back('\n');
 
@@ -56,7 +56,7 @@ int main(void) {
 		}
 	}
 
-	// ¸ğµç ¸í·É¾î¸¦ ¼öÇàÇÑ ÈÄ ÆíÁı±â¿¡ ÀÖ´Â ¹®ÀÚ¿­ ±¸ÇÏ±â
+	// ëª¨ë“  ëª…ë ¹ì–´ë¥¼ ìˆ˜í–‰í•œ í›„ í¸ì§‘ê¸°ì— ìˆëŠ” ë¬¸ìì—´ êµ¬í•˜ê¸°
 	while (!left.empty()) {
 		right.push(left.top());
 		left.pop();

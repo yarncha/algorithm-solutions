@@ -4,7 +4,7 @@
 //void solution() {
 //	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 //
-//	//nÀ» 1, 2, 3ÀÇ ÇÕÀ¸·Î  ³ªÅ¸³»´Â ¹æ¹ýÀÇ ¼ö
+//	//nì„ 1, 2, 3ì˜ í•©ìœ¼ë¡œ  ë‚˜íƒ€ë‚´ëŠ” ë°©ë²•ì˜ ìˆ˜
 //
 //	int a, b;
 //	cin >> a >> b;

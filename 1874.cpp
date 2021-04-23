@@ -6,21 +6,21 @@ using namespace std;
 int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-	// ¸î ÁÙÀÌ ÁÖ¾îÁúÁö¸¦ ¹Ş¾Æ¿À°í ÀÌ¸¦ for¹®À¸·Î ¹İº¹
+	// ëª‡ ì¤„ì´ ì£¼ì–´ì§ˆì§€ë¥¼ ë°›ì•„ì˜¤ê³  ì´ë¥¼ forë¬¸ìœ¼ë¡œ ë°˜ë³µ
 	int num_of_commands;
 	cin >> num_of_commands;
 
-	stack<int> s;	//»ç¿ëÇÒ ½ºÅÃ
-	int input_number;	//ÀÔ·Â ¼ıÀÚ
-	int counter = 1;	// ¼ö¿­ ÀÌ¿ë¿¡ ÇÊ¿äÇÑ Ä«¿îÅÍ
-	int is_vaild = 1;	//¼ö¿­À» ¸¸µé ¼ö ÀÖ´ÂÁö
-	string result = "";	//°á°ú
+	stack<int> s;	//ì‚¬ìš©í•  ìŠ¤íƒ
+	int input_number;	//ì…ë ¥ ìˆ«ì
+	int counter = 1;	// ìˆ˜ì—´ ì´ìš©ì— í•„ìš”í•œ ì¹´ìš´í„°
+	int is_vaild = 1;	//ìˆ˜ì—´ì„ ë§Œë“¤ ìˆ˜ ìˆëŠ”ì§€
+	string result = "";	//ê²°ê³¼
 
 	for (int i = 0; i < num_of_commands; i++)
 	{
 		cin >> input_number;
 
-		// ÀÔ·ÂÇÑ ¼ıÀÚ°¡ ½ºÅÃ¿¡ µé¾î°£ °Íº¸´Ù ÀÛÀ» °æ¿ì´Â counterÀÌ¿ëÇØ¼­ push
+		// ì…ë ¥í•œ ìˆ«ìê°€ ìŠ¤íƒì— ë“¤ì–´ê°„ ê²ƒë³´ë‹¤ ì‘ì„ ê²½ìš°ëŠ” counterì´ìš©í•´ì„œ push
 		if (s.size() == 0 || input_number > s.top()) {
 			while (counter <= input_number)
 			{
@@ -32,7 +32,7 @@ int main(void) {
 			}
 		}
 
-		// popÀ» ÇÒ ¶§¿¡´Â top¿¡ ÀÔ·ÂÇÑ ¿ø¼Ò°¡ ÀÖ¾î¾ßÇÔ
+		// popì„ í•  ë•Œì—ëŠ” topì— ì…ë ¥í•œ ì›ì†Œê°€ ìˆì–´ì•¼í•¨
 		if (s.top() == input_number) {
 			s.pop();
 			result.push_back('-');
@@ -46,7 +46,7 @@ int main(void) {
 
 	}
 
-	//ÀÌ ¼ö¿­À» ¸¸µé ¼ö ÀÖ´ÂÁö¸¦ ÆÇ´Ü
+	//ì´ ìˆ˜ì—´ì„ ë§Œë“¤ ìˆ˜ ìˆëŠ”ì§€ë¥¼ íŒë‹¨
 	if (is_vaild == 1) {
 		cout << result;
 	}

@@ -4,8 +4,8 @@ using namespace std;
 int main(void) {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-	bool is_removed[1000001] = { false };	// Á¦°ÅµÇ¾ú´ÂÁö È®ÀÎÇÒ ¼ö ÀÖ´Â ¹è¿­
-	int start, end;	// start~end »çÀÌÀÇ ¼Ò¼ö¸¦ ±¸ÇÒ °Í
+	bool is_removed[1000001] = { false };	// ì œê±°ë˜ì—ˆëŠ”ì§€ í™•ì¸í•  ìˆ˜ ìˆëŠ” ë°°ì—´
+	int start, end;	// start~end ì‚¬ì´ì˜ ì†Œìˆ˜ë¥¼ êµ¬í•  ê²ƒ
 
 	cin >> start >> end;
 
