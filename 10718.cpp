@@ -7,7 +7,7 @@ void solution() {
 	//cin.tie(nullptr);
 	//cout.tie(nullptr);
 
-	cout << "°­ÇÑÄ£±¸ ´ëÇÑÀ°±º\n°­ÇÑÄ£±¸ ´ëÇÑÀ°±º";
+	cout << "ê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°\nê°•í•œì¹œêµ¬ ëŒ€í•œìœ¡êµ°";
 }
 
 int main(void) {

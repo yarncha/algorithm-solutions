@@ -8,10 +8,10 @@ int main(void) {
 
 	int num_of_partition = 0;
 
-	bool is_laser = false;	// ´ÙÀ½ µé¾î¿Ã ±ÛÀÚ°¡ ·¹ÀÌÀúÀÎÁö ¾Æ´ÑÁö¸¦ ÆÄ¾Ç
-	stack<char> s;	//"("¸¦ ÀúÀåÇÒ ½ºÅÃ
+	bool is_laser = false;	// ë‹¤ìŒ ë“¤ì–´ì˜¬ ê¸€ìê°€ ë ˆì´ì €ì¸ì§€ ì•„ë‹Œì§€ë¥¼ íŒŒì•…
+	stack<char> s;	//"("ë¥¼ ì €ì¥í•  ìŠ¤íƒ
 
-	//ÀÔ·Â ¹Ş±â
+	//ì…ë ¥ ë°›ê¸°
 	string input;
 	cin >> input;
 

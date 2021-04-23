@@ -11,10 +11,10 @@ int main(void) {
 	stack<int> s;
 
 	int num_of_commands;
-	string current_command;     //ÀÔ·Â¹ÞÀ» ¸í·É
-	int value;      //ÀÔ·Â¹ÞÀ» °ª
+	string current_command;     //ìž…ë ¥ë°›ì„ ëª…ë ¹
+	int value;      //ìž…ë ¥ë°›ì„ ê°’
 	cin >> num_of_commands;
-	// ¸í·ÉÀÇ °¹¼ö¸¦ ÀÔ·Â¹Þ°í for¹®¿¡¼­ ÇØ´ç °¹¼ö¸¸Å­ µ¹¸°´Ù.
+	// ëª…ë ¹ì˜ ê°¯ìˆ˜ë¥¼ ìž…ë ¥ë°›ê³  forë¬¸ì—ì„œ í•´ë‹¹ ê°¯ìˆ˜ë§Œí¼ ëŒë¦°ë‹¤.
 
 	for (int i = 0; i < num_of_commands; i++)
 	{
@@ -32,7 +32,7 @@ int main(void) {
 				cout << s.top() << "\n";
 				s.pop();
 			}
-			// Stack ¶óÀÌºê·¯¸®¿¡¼­´Â popÀÌ ¾î¶² °ªÀ» ¹ÝÈ¯ÇÏÁö ¾Ê°í, void·Î ±¸ÇöµÇ¾îÀÖÀ¸¹Ç·Î topÀ» ¸®ÅÏÇÏµµ·Ï ÇÑ´Ù.
+			// Stack ë¼ì´ë¸ŒëŸ¬ë¦¬ì—ì„œëŠ” popì´ ì–´ë–¤ ê°’ì„ ë°˜í™˜í•˜ì§€ ì•Šê³ , voidë¡œ êµ¬í˜„ë˜ì–´ìžˆìœ¼ë¯€ë¡œ topì„ ë¦¬í„´í•˜ë„ë¡ í•œë‹¤.
 		}
 		else if (current_command == "size") {
 			cout << s.size() << "\n";

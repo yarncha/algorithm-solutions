@@ -5,7 +5,7 @@ using namespace std;
 struct Stack {
 	int stack_data[10000];
 	int size;
-	// ╦М╥июг ╪Ж╟║ 10000ю╦╥н аж╬На╝ южю╦╧г╥н 10000ю╦╥н ╪Ёа╓гь ╣п╢ы.
+	// К╙┘К═╧Л²≤ Л┬≤Й╟─ 10000Л°╪К║° Лё╪Л√╢Л═╦ Л·┬Л°╪К╞─К║° 10000Л°╪К║° Л└╓Л═∙М∙╢ К▒■К▀╓.
 
 	Stack() {
 		size = 0;
@@ -47,10 +47,10 @@ int main(void) {
 	Stack s;
 
 	int num_of_commands;
-	string current_command;     //ют╥б╧чю╩ ╦М╥и
-	int value;      //ют╥б╧чю╩ ╟╙
+	string current_command;     //Л·┘К═╔К╟⌡Л²└ К╙┘К═╧
+	int value;      //Л·┘К═╔К╟⌡Л²└ Й╟▓
 	cin >> num_of_commands;
-	// ╦М╥июг ╟╧╪Ж╦╕ ют╥б╧ч╟М for╧╝©║╪╜ гь╢Г ╟╧╪Ж╦╦е╜ ╣╧╦╟╢ы.
+	// К╙┘К═╧Л²≤ Й╟╞Л┬≤К╔╪ Л·┘К═╔К╟⌡ЙЁ═ forК╛╦Л≈░Л└° М∙╢К▀╧ Й╟╞Л┬≤К╖▄М│╪ К▐▄К╕╟К▀╓.
 
 	for (int i = 0; i < num_of_commands; i++)
 	{

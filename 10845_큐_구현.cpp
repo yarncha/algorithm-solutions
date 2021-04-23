@@ -3,7 +3,7 @@
 using namespace std;
 
 struct queue {
-	int queue_data[10000];	// ╦М╥июг ╪Ж╟║ 10000ю╦╥н аж╬На╝ южю╦╧г╥н 10000ю╦╥н ╪Ёа╓гь ╣п╢ы.
+	int queue_data[10000];	// К╙┘К═╧Л²≤ Л┬≤Й╟─ 10000Л°╪К║° Лё╪Л√╢Л═╦ Л·┬Л°╪К╞─К║° 10000Л°╪К║° Л└╓Л═∙М∙╢ К▒■К▀╓.
 	int begin;
 	int end;
 
@@ -58,10 +58,10 @@ int main(void) {
 	queue q;
 
 	int num_of_commands;
-	string current_command;     //ют╥б╧чю╩ ╦М╥и
-	int value;      //ют╥б╧чю╩ ╟╙
+	string current_command;     //Л·┘К═╔К╟⌡Л²└ К╙┘К═╧
+	int value;      //Л·┘К═╔К╟⌡Л²└ Й╟▓
 	cin >> num_of_commands;
-	// ╦М╥июг ╟╧╪Ж╦╕ ют╥б╧ч╟М for╧╝©║╪╜ гь╢Г ╟╧╪Ж╦╦е╜ ╣╧╦╟╢ы.
+	// К╙┘К═╧Л²≤ Й╟╞Л┬≤К╔╪ Л·┘К═╔К╟⌡ЙЁ═ forК╛╦Л≈░Л└° М∙╢К▀╧ Й╟╞Л┬≤К╖▄М│╪ К▐▄К╕╟К▀╓.
 
 	for (int i = 0; i < num_of_commands; i++)
 	{
