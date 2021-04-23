@@ -45,6 +45,8 @@
 	Stack
 * [9093번 단어 뒤집기](https://github.com/yarncha/baekjoon/blob/master/9093.cpp)
 	Stack
+* [9613번 GCD 합](https://github.com/yarncha/baekjoon/blob/master/9613.cpp)
+	gcd
 * [10430번 나머지](https://github.com/yarncha/baekjoon/blob/master/10430.cpp)
 * [10718번 We love kriii](https://github.com/yarncha/baekjoon/blob/master/10718.cpp)
 * [10799번 쇠막대기](https://github.com/yarncha/baekjoon/blob/master/10799.cpp)
