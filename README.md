@@ -16,6 +16,7 @@
 	소수점 아래 숫자 고정
 * [1158번 요세푸스 문제](https://github.com/yarncha/baekjoon/blob/master/1158.cpp)
   Queue
+* [1212번 8진수 2진수](https://github.com/yarncha/baekjoon/blob/master/1212.cpp)
 * [1373번 2진수 8진수](https://github.com/yarncha/baekjoon/blob/master/1373.cpp)
 * [1406번 에디터](https://github.com/yarncha/baekjoon/blob/master/1406.cpp)
   Stack
