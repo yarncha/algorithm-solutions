@@ -36,6 +36,7 @@
 * ✨[2004번 조합 0의 개수](https://github.com/yarncha/baekjoon/blob/master/2004.cpp)
 	조합에서 0의 개수 구하기, 팩토리얼과 비슷, 이번엔 5와 2 같이 세기
 * [2089번 -2진수](https://github.com/yarncha/baekjoon/blob/master/2089.cpp)
+	진수 변환 (수학)
 * [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
 * [2609번 최대공약수와 최소공배수](https://github.com/yarncha/baekjoon/blob/master/2609.cpp)
