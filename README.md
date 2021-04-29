@@ -42,6 +42,7 @@
 * [2609번 최대공약수와 최소공배수](https://github.com/yarncha/baekjoon/blob/master/2609.cpp)
 	gcd, lcm
 * [2743번 단어 길이 재기](https://github.com/yarncha/baekjoon/blob/master/2743.cpp)
+* [2745번 진법 변환](https://github.com/yarncha/baekjoon/blob/master/2745.cpp)
 * [6588번 골드바흐의 추측](https://github.com/yarncha/baekjoon/blob/master/6588.cpp)
 	범위 내의 모든 소수 구하기, 에라토스테네스의 체
 * [7287번 등록](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
@@ -76,6 +77,7 @@
 * [11005번 진법 변환 2](https://github.com/yarncha/baekjoon/blob/master/11005.cpp)
 * [11021번 A+B - 7](https://github.com/yarncha/baekjoon/blob/master/11021.cpp)
 * [11022번 A+B - 8](https://github.com/yarncha/baekjoon/blob/master/11022.cpp)
+* [11576번 ㅂㅈㄷㄱ](https://github.com/yarncha/baekjoon/blob/master/11576.cpp)
 * [11655번 ROT13](https://github.com/yarncha/baekjoon/blob/master/11655.cpp)
 * [11656번 접미사 배열](https://github.com/yarncha/baekjoon/blob/master/11656.cpp)
 	정렬
