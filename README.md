@@ -73,6 +73,7 @@
 * [10951번 A+B - 4](https://github.com/yarncha/baekjoon/blob/master/10951.cpp)
 * [10952번 A+B - 5](https://github.com/yarncha/baekjoon/blob/master/10952.cpp)
 * [10998번 AxB](https://github.com/yarncha/baekjoon/blob/master/10998.cpp)
+* [11005번 진법 변환 2](https://github.com/yarncha/baekjoon/blob/master/11005.cpp)
 * [11021번 A+B - 7](https://github.com/yarncha/baekjoon/blob/master/11021.cpp)
 * [11022번 A+B - 8](https://github.com/yarncha/baekjoon/blob/master/11022.cpp)
 * [11655번 ROT13](https://github.com/yarncha/baekjoon/blob/master/11655.cpp)
