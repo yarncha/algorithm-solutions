@@ -20,6 +20,8 @@
 * [1373번 2진수 8진수](https://github.com/yarncha/baekjoon/blob/master/1373.cpp)
 * [1406번 에디터](https://github.com/yarncha/baekjoon/blob/master/1406.cpp)
   Stack
+* [1463번 1로 만들기 (Top-down 방식)](https://github.com/yarncha/baekjoon/blob/master/1463.cpp), [Bottom-up 방식](https://github.com/yarncha/baekjoon/blob/master/1463_bottom.cpp)
+	DP
 * ✨[1676번 팩토리얼 0의 개수](https://github.com/yarncha/baekjoon/blob/master/1676.cpp)
 	팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨
 * [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
