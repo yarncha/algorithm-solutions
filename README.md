@@ -86,6 +86,8 @@
 	정렬
 * [11726번 2×n 타일링](https://github.com/yarncha/baekjoon/blob/master/11726.cpp)
 	DP
+* [11727번 2×n 타일링 2](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)
+	DP
 * [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
 * [17087번 숨바꼭질 6](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
 	gcd (최대공약수)
