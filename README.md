@@ -68,6 +68,8 @@
 * [10824번 네 수 (자리수 이용 풀이)](https://github.com/yarncha/baekjoon/blob/master/10824.cpp),[(문자열 관련 함수 사용)](https://github.com/yarncha/baekjoon/blob/master/10824_b.cpp)
 * [10828번 스택(구현)](https://github.com/yarncha/baekjoon/blob/master/10828_구현.cpp),[(라이브러리 사용)](https://github.com/yarncha/baekjoon/blob/master/10828_라이브러리_사용.cpp)
 	Stack
+* [10844번 쉬운 계단 수](https://github.com/yarncha/baekjoon/blob/master/10844.cpp)
+	DP
 * [10845번 큐(구현)](https://github.com/yarncha/baekjoon/blob/master/10845_큐_구현.cpp),[(라이브러리 사용)](https://github.com/yarncha/baekjoon/blob/master/10845_큐_라이브러리_사용.cpp)
 	Queue
 * [10866번 덱](https://github.com/yarncha/baekjoon/blob/master/10866.cpp)
