@@ -93,6 +93,10 @@
 * [11727번 2×n 타일링 2](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)
 	DP
 * [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
+* [15990번 1, 2, 3 더하기 5](https://github.com/yarncha/baekjoon/blob/master/15990.cpp)
+	DP
+* [16194번 카드 구매하기 2](https://github.com/yarncha/baekjoon/blob/master/16194.cpp)
+	DP
 * [17087번 숨바꼭질 6](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
 	gcd (최대공약수)
 * [17103번 골드바흐 파티션](https://github.com/yarncha/baekjoon/blob/master/17103.cpp)
