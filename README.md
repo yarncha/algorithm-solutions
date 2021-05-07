@@ -26,6 +26,8 @@
 	팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨
 * [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
 	Stack
+* [1912번 연속합](https://github.com/yarncha/baekjoon/blob/master/1912.cpp)
+	DP
 * [1918번 후위 표기식](https://github.com/yarncha/baekjoon/blob/master/1918.cpp)
 	차량기지 알고리즘(중위 표기법을 후위 표기법으로 변환)
 * [1929번 소수 구하기](https://github.com/yarncha/baekjoon/blob/master/1929.cpp)
