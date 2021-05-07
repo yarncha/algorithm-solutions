@@ -87,7 +87,7 @@
 * [11022번 A+B - 8](https://github.com/yarncha/baekjoon/blob/master/11022.cpp)
 * [11052번 카드 구매하기](https://github.com/yarncha/baekjoon/blob/master/11052.cpp)
 	DP
-* [11053번 가장 긴 증가하는 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11053.cpp)
+* ✨[11053번 가장 긴 증가하는 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11053.cpp)
 	DP
 * [11576번 Base Conversion](https://github.com/yarncha/baekjoon/blob/master/11576.cpp)
 * [11653번 소인수분해](https://github.com/yarncha/baekjoon/blob/master/11653.cpp)
@@ -97,6 +97,8 @@
 * [11726번 2×n 타일링](https://github.com/yarncha/baekjoon/blob/master/11726.cpp)
 	DP
 * [11727번 2×n 타일링 2](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)
+	DP
+* ✨[14002번 가장 긴 증가하는 부분 수열 4](https://github.com/yarncha/baekjoon/blob/master/14002.cpp)
 	DP
 * [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
 * [15990번 1, 2, 3 더하기 5](https://github.com/yarncha/baekjoon/blob/master/15990.cpp)
