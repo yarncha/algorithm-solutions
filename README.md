@@ -24,6 +24,8 @@
 	DP
 * ✨[1676번 팩토리얼 0의 개수](https://github.com/yarncha/baekjoon/blob/master/1676.cpp)
 	팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨
+* [1699번 제곱수의 합](https://github.com/yarncha/baekjoon/blob/master/1699.cpp)
+	DP
 * [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
 	Stack
 * [1912번 연속합](https://github.com/yarncha/baekjoon/blob/master/1912.cpp)
@@ -42,6 +44,8 @@
 * [2089번 -2진수](https://github.com/yarncha/baekjoon/blob/master/2089.cpp)
 	진수 변환 (수학)
 * [2193번 이친수 ](https://github.com/yarncha/baekjoon/blob/master/2193.cpp)
+	DP
+* [2225번 합분해](https://github.com/yarncha/baekjoon/blob/master/2225.cpp)
 	DP
 * [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
@@ -117,9 +121,6 @@
 	Stack
 * [17413번 단어 뒤집기 2](https://github.com/yarncha/baekjoon/blob/master/17413.cpp)
   Stack
-
-
-* [2225번 합분해](https://github.com/yarncha/baekjoon/blob/master/2225.cpp)
 
 </div>
 </details>
