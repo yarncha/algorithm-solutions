@@ -11,7 +11,7 @@ void Solution15988() {
 	int num_of_test_cases;		// 테스트 케이스의 개수
 	cin >> num_of_test_cases;
 
-	int num_of_ways[1000001] = { 0, };
+	long long num_of_ways[1000001] = { 0, };
 	// 정수 input_number를 1, 2, 3의 합으로 나타내는 방법
 
 	num_of_ways[1] = 1;
