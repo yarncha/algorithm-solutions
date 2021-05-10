@@ -14,6 +14,8 @@
 * [1001번 A-B](https://github.com/yarncha/baekjoon/blob/master/1001.cpp)
 * [1008번 A/B](https://github.com/yarncha/baekjoon/blob/master/1008.cpp)
 	소수점 아래 숫자 고정
+* ✨[1149번 RGB거리](https://github.com/yarncha/baekjoon/blob/master/1149.cpp)
+	DP
 * [1158번 요세푸스 문제](https://github.com/yarncha/baekjoon/blob/master/1158.cpp)
   Queue
 * [1212번 8진수 2진수](https://github.com/yarncha/baekjoon/blob/master/1212.cpp)
