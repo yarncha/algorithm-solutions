@@ -107,6 +107,7 @@
 * ✨[14002번 가장 긴 증가하는 부분 수열 4](https://github.com/yarncha/baekjoon/blob/master/14002.cpp)
 	DP
 * [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
+* [15988번 1, 2, 3 더하기 3](https://github.com/yarncha/baekjoon/blob/master/15988.cpp)
 * [15990번 1, 2, 3 더하기 5](https://github.com/yarncha/baekjoon/blob/master/15990.cpp)
 	DP
 * [16194번 카드 구매하기 2](https://github.com/yarncha/baekjoon/blob/master/16194.cpp)
