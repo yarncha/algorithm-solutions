@@ -66,6 +66,8 @@
 	Stack
 * [9095번 1, 2, 3 더하기](https://github.com/yarncha/baekjoon/blob/master/9095.cpp)
 	DP
+* [9465번 스티커](https://github.com/yarncha/baekjoon/blob/master/9465.cpp)
+	DP
 * [9613번 GCD 합](https://github.com/yarncha/baekjoon/blob/master/9613.cpp)
 	gcd
 * [10430번 나머지](https://github.com/yarncha/baekjoon/blob/master/10430.cpp)
