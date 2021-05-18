@@ -38,6 +38,8 @@
 	차량기지 알고리즘(중위 표기법을 후위 표기법으로 변환)
 * [1929번 소수 구하기](https://github.com/yarncha/baekjoon/blob/master/1929.cpp)
 	범위 내의 모든 소수 구하기, 에라토스테네스의 체
+* ✨[1932번 정수 삼각형](https://github.com/yarncha/baekjoon/blob/master/1932.cpp)
+	DP
 * [1934번 최소공배수](https://github.com/yarncha/baekjoon/blob/master/1934.cpp)
 	gcd
 * [1935번 후위 표기식2](https://github.com/yarncha/baekjoon/blob/master/1935.cpp)
