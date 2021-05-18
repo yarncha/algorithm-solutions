@@ -105,6 +105,8 @@
 	DP
 * ✨[11053번 가장 긴 증가하는 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11053.cpp)
 	DP
+* [11055번 가장 큰 증가 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11055.cpp)
+	DP
 * [11057번 오르막 수](https://github.com/yarncha/baekjoon/blob/master/11057.cpp)
 	DP
 * [11576번 Base Conversion](https://github.com/yarncha/baekjoon/blob/master/11576.cpp)
