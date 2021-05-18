@@ -114,6 +114,8 @@
 * [11655번 ROT13](https://github.com/yarncha/baekjoon/blob/master/11655.cpp)
 * [11656번 접미사 배열](https://github.com/yarncha/baekjoon/blob/master/11656.cpp)
 	정렬
+* [11722번 가장 긴 감소하는 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11722.cpp)
+	DP
 * [11726번 2×n 타일링](https://github.com/yarncha/baekjoon/blob/master/11726.cpp)
 	DP
 * [11727번 2×n 타일링 2](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)
