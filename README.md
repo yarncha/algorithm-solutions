@@ -49,6 +49,8 @@
 	조합에서 0의 개수 구하기, 팩토리얼과 비슷, 이번엔 5와 2 같이 세기
 * [2089번 -2진수](https://github.com/yarncha/baekjoon/blob/master/2089.cpp)
 	진수 변환 (수학)
+* [2133번 타일 채우기](https://github.com/yarncha/baekjoon/blob/master/2133.cpp)
+	DP
 * [2156번 포도주 시식](https://github.com/yarncha/baekjoon/blob/master/2156.cpp)
 	DP
 * [2193번 이친수](https://github.com/yarncha/baekjoon/blob/master/2193.cpp)
