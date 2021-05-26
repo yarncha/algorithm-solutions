@@ -143,6 +143,7 @@
 	Stack
 * [17299번 오등큰수](https://github.com/yarncha/baekjoon/blob/master/17299.cpp)
 	Stack
+* [17404번 RGB거리 2](https://github.com/yarncha/baekjoon/blob/master/17404.cpp)
 * [17413번 단어 뒤집기 2](https://github.com/yarncha/baekjoon/blob/master/17413.cpp)
   Stack
 
