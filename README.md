@@ -57,6 +57,7 @@
 	DP
 * [2225번 합분해](https://github.com/yarncha/baekjoon/blob/master/2225.cpp)
 	DP
+* [2309번 일곱 난쟁이](https://github.com/yarncha/baekjoon/blob/master/2309.cpp)
 * [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
 * [2609번 최대공약수와 최소공배수](https://github.com/yarncha/baekjoon/blob/master/2609.cpp)
