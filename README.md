@@ -26,6 +26,7 @@
   Stack
 * [1463번 1로 만들기 (Top-down 방식)](https://github.com/yarncha/baekjoon/blob/master/1463.cpp), [Bottom-up 방식](https://github.com/yarncha/baekjoon/blob/master/1463_bottom.cpp)
 	DP
+* [1476번 날짜 계산](https://github.com/yarncha/baekjoon/blob/master/1476.cpp)
 * ✨[1676번 팩토리얼 0의 개수](https://github.com/yarncha/baekjoon/blob/master/1676.cpp)
 	팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨
 * [1699번 제곱수의 합](https://github.com/yarncha/baekjoon/blob/master/1699.cpp)
