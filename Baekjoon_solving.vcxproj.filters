@@ -285,6 +285,9 @@
     <ClCompile Include="17404.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3085.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
