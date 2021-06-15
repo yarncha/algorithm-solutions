@@ -134,6 +134,7 @@
 	DP
 * ✨[14002번 가장 긴 증가하는 부분 수열 4](https://github.com/yarncha/baekjoon/blob/master/14002.cpp)
 	DP
+* [14500번 테트로미노](https://github.com/yarncha/baekjoon/blob/master/14500.cpp)
 * [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
 * [15988번 1, 2, 3 더하기 3](https://github.com/yarncha/baekjoon/blob/master/15988.cpp)
 	DP
