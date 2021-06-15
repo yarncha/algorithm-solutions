@@ -14,6 +14,8 @@
 * [1001번 A-B](https://github.com/yarncha/baekjoon/blob/master/1001.cpp)
 * [1008번 A/B](https://github.com/yarncha/baekjoon/blob/master/1008.cpp)
 	소수점 아래 숫자 고정
+* [1107번 리모컨](https://github.com/yarncha/baekjoon/blob/master/1107.cpp)
+	x 브루트포스 범위 줄이려고 노력함. 예외가 너무 많아서 힘들었음
 * ✨[1149번 RGB거리](https://github.com/yarncha/baekjoon/blob/master/1149.cpp)
 	DP
 * [1158번 요세푸스 문제](https://github.com/yarncha/baekjoon/blob/master/1158.cpp)
