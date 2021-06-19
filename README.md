@@ -128,6 +128,8 @@
 	정렬
 * [11722번 가장 긴 감소하는 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11722.cpp)
 	DP
+* [11724번 연결 요소의 개수](https://github.com/yarncha/baekjoon/blob/master/11724.cpp)
+	DFS 풀이
 * [11726번 2×n 타일링](https://github.com/yarncha/baekjoon/blob/master/11726.cpp)
 	DP
 * [11727번 2×n 타일링 2](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)
