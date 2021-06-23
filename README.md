@@ -60,6 +60,8 @@
 	DP
 * [2156번 포도주 시식](https://github.com/yarncha/baekjoon/blob/master/2156.cpp)
 	DP
+* [2178번 미로 탐색](https://github.com/yarncha/baekjoon/blob/master/2178.cpp)
+	BFS
 * [2193번 이친수](https://github.com/yarncha/baekjoon/blob/master/2193.cpp)
 	DP
 * [2225번 합분해](https://github.com/yarncha/baekjoon/blob/master/2225.cpp)
