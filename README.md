@@ -75,6 +75,8 @@
 * [2745번 진법 변환](https://github.com/yarncha/baekjoon/blob/master/2745.cpp)
 * [3085번 사탕 게임](https://github.com/yarncha/baekjoon/blob/master/3085.cpp)
 	x
+* [4963번 섬의 개수](https://github.com/yarncha/baekjoon/blob/master/4963.cpp)
+	BFS
 * [6588번 골드바흐의 추측](https://github.com/yarncha/baekjoon/blob/master/6588.cpp)
 	범위 내의 모든 소수 구하기, 에라토스테네스의 체
 * [7287번 등록](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
