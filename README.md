@@ -69,6 +69,8 @@
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
 * [2609번 최대공약수와 최소공배수](https://github.com/yarncha/baekjoon/blob/master/2609.cpp)
 	gcd, lcm
+* [2667번 단지번호붙이기](https://github.com/yarncha/baekjoon/blob/master/2667.cpp)
+	BFS
 * [2743번 단어 길이 재기](https://github.com/yarncha/baekjoon/blob/master/2743.cpp)
 * [2745번 진법 변환](https://github.com/yarncha/baekjoon/blob/master/2745.cpp)
 * [3085번 사탕 게임](https://github.com/yarncha/baekjoon/blob/master/3085.cpp)
