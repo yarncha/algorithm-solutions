@@ -159,6 +159,7 @@
 	DP
 * [16194번 카드 구매하기 2](https://github.com/yarncha/baekjoon/blob/master/16194.cpp)
 	DP
+* [16929번 Two Dots](https://github.com/yarncha/baekjoon/blob/master/16929.cpp)
 * [17087번 숨바꼭질 6](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
 	gcd (최대공약수)
 * [17103번 골드바흐 파티션](https://github.com/yarncha/baekjoon/blob/master/17103.cpp)
