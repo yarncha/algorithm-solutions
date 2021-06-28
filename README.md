@@ -161,6 +161,8 @@
 	DP
 * [16929번 Two Dots](https://github.com/yarncha/baekjoon/blob/master/16929.cpp)
 	DFS
+* [16940번 BFS 스페셜 저지](https://github.com/yarncha/baekjoon/blob/master/16940.cpp)
+	BFS
 * [16947번 서울 지하철 2호선](https://github.com/yarncha/baekjoon/blob/master/16947.cpp)
 	DFS, BFS
 * [17087번 숨바꼭질 6](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
