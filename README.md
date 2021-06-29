@@ -58,6 +58,8 @@
 	진수 변환 (수학)
 * [2133번 타일 채우기](https://github.com/yarncha/baekjoon/blob/master/2133.cpp)
 	DP
+* ✨[2146번 다리 만들기](https://github.com/yarncha/baekjoon/blob/master/2146.cpp)
+	BFS
 * [2156번 포도주 시식](https://github.com/yarncha/baekjoon/blob/master/2156.cpp)
 	DP
 * [2178번 미로 탐색](https://github.com/yarncha/baekjoon/blob/master/2178.cpp)
