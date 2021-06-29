@@ -165,6 +165,8 @@
 	BFS
 * [16947번 서울 지하철 2호선](https://github.com/yarncha/baekjoon/blob/master/16947.cpp)
 	DFS, BFS
+* [16964번 DFS 스페셜 저지](https://github.com/yarncha/baekjoon/blob/master/16964.cpp)
+	DFS
 * [17087번 숨바꼭질 6](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
 	gcd (최대공약수)
 * [17103번 골드바흐 파티션](https://github.com/yarncha/baekjoon/blob/master/17103.cpp)
