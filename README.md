@@ -153,6 +153,8 @@
 * [13023번 ABCDE](https://github.com/yarncha/baekjoon/blob/master/13023.cpp)
 * [13398번 연속합 2](https://github.com/yarncha/baekjoon/blob/master/13398.cpp)
 	DP
+* [13913번 숨바꼭질 4](https://github.com/yarncha/baekjoon/blob/master/13913.cpp)
+	BFS, 백트래킹
 * ✨[14002번 가장 긴 증가하는 부분 수열 4](https://github.com/yarncha/baekjoon/blob/master/14002.cpp)
 	DP
 * [14500번 테트로미노](https://github.com/yarncha/baekjoon/blob/master/14500.cpp)
