@@ -33,6 +33,8 @@
 * [1476번 날짜 계산](https://github.com/yarncha/baekjoon/blob/master/1476.cpp)
 * ✨[1676번 팩토리얼 0의 개수](https://github.com/yarncha/baekjoon/blob/master/1676.cpp)
 	팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨
+* [1697번 숨바꼭질](https://github.com/yarncha/baekjoon/blob/master/1697.cpp)
+	BFS
 * [1699번 제곱수의 합](https://github.com/yarncha/baekjoon/blob/master/1699.cpp)
 	DP
 * [1707번 이분 그래프](https://github.com/yarncha/baekjoon/blob/master/1707.cpp)
