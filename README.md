@@ -56,6 +56,8 @@
 * [1935번 후위 표기식2](https://github.com/yarncha/baekjoon/blob/master/1935.cpp)
 * [1978번 소수 찾기](https://github.com/yarncha/baekjoon/blob/master/1978.cpp)
 	어떤 수가 소수인지 판단
+* [1991번 트리 순회](https://github.com/yarncha/baekjoon/blob/master/1991.cpp)
+	트리
 * ✨[2004번 조합 0의 개수](https://github.com/yarncha/baekjoon/blob/master/2004.cpp)
 	조합에서 0의 개수 구하기, 팩토리얼과 비슷, 이번엔 5와 2 같이 세기
 * [2089번 -2진수](https://github.com/yarncha/baekjoon/blob/master/2089.cpp)
