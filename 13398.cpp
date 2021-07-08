@@ -17,7 +17,6 @@ void Solution13398() {
 		number_array[i] = temp;
 	}
 
-
 	// 2. 각 i들에 대해 i번째 원소를 끝/시작으로 하는 최대 연속합 각각 계산
 	max_sum_of_continuous_numbers_end_with[0] = number_array[0];
 	max_sum_of_continuous_numbers_start_with[length_of_num_array - 1] = number_array[length_of_num_array - 1];
@@ -40,7 +39,6 @@ void Solution13398() {
 		}
 	}
 
-
 	// 3. 마지막으로, 가장 큰 연속합을 구하기 위한 부분
 	int result = max_sum_of_continuous_numbers_end_with[0];
 	for (int m = 1; m < length_of_num_array; m++)
@@ -52,7 +50,7 @@ void Solution13398() {
 
 	for (int n = 1; n < length_of_num_array - 1; n++)
 	{
-		int sum_of_both_side = max_sum_of_continuous_numbers_end_with[n-1] + max_sum_of_continuous_numbers_start_with[n+1];
+		int sum_of_both_side = max_sum_of_continuous_numbers_end_with[n - 1] + max_sum_of_continuous_numbers_start_with[n + 1];
 		if (sum_of_both_side > result) {
 			result = sum_of_both_side;
 		}

@@ -26,7 +26,6 @@ void Solution2309() {
 				sort(height, height + 7);
 				for (int m = 0; m < 7; m++)
 				{
-
 					cout << height[m] << "\n";
 				}
 				return;

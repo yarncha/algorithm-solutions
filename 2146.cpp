@@ -57,7 +57,6 @@ void Solution2146() {
 		}
 	}
 
-
 	// 색칠하기
 	group_num = 1;			// 초기 그룹넘버는 1
 	for (int k = 0; k < lands.size(); k++)
@@ -69,7 +68,6 @@ void Solution2146() {
 			group_num++;							// 다음 그룹으로 넘어감
 		}
 	}
-
 
 	// 땅 넓혀가며 구분하기
 	queue<pair<int, int>> expand_q;

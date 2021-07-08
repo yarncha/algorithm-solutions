@@ -19,7 +19,6 @@ vector<pair<int, int>> edge_list;           // 간선 리스트
 void Solution13023() {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-
 	// 1. 사람과 그 관계 입력 받기
 	int num_of_people, num_of_relations;        // 사람의 수(5~20000)와 친구 관계의 수(1~2000)
 	cin >> num_of_people >> num_of_relations;
@@ -41,7 +40,6 @@ void Solution13023() {
 		edge_list.push_back({ from, to });
 		edge_list.push_back({ to, from });
 	}
-
 
 	// 2. 알맞은 관계 찾기
 	num_of_relations *= 2;				// 친구 관계의 수가 양방향 그래프의 관계로 주어졌으니, 이를 일방향으로 바꾸기 위해 2를 곱해줌

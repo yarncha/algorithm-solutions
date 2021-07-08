@@ -27,7 +27,7 @@ void solution_10820() {
 				character_counter[0] = character_counter[0] + 1;
 			}
 		}
-		cout << character_counter[0] << " " << character_counter[1] << " " << character_counter[2] << " " << character_counter[3]<<"\n";
+		cout << character_counter[0] << " " << character_counter[1] << " " << character_counter[2] << " " << character_counter[3] << "\n";
 		character_counter[0] = 0;
 		character_counter[1] = 0;
 		character_counter[2] = 0;

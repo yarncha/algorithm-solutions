@@ -40,7 +40,6 @@ bool dfs(int x, int y, int step_count) {
 				// 같은 색의 점이긴 한데 지나간 점이었을 경우, 그 차이가 3 이상이면 사이클이 생긴 것이므로 return
 				return true;
 			}
-
 		}
 	}
 
@@ -64,7 +63,6 @@ void Solution16929() {
 		}
 	}
 
-
 	// dfs로 탐색
 	for (int x = 0; x < width; x++)
 	{
@@ -78,7 +76,6 @@ void Solution16929() {
 			}
 		}
 	}
-
 
 	// 중간에 빠져나가지 않고 처리가 끝나면, 사이클이 없는 것
 	cout << "No\n";

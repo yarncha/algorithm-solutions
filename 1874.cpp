@@ -43,7 +43,6 @@ int main(void) {
 			is_vaild = 0;
 			//break;
 		}
-
 	}
 
 	//이 수열을 만들 수 있는지를 판단

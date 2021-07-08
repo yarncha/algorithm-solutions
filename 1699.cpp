@@ -18,8 +18,8 @@ void Solution1699() {
 		//     num_of_square_number[24-1]이 초기 min_value로 설정되고
 		//	   바로 아래의 반복문을 돌며 num_of_square_number[24-4], num_of_square_number[24-9], num_of_square_number[24-16]를 min_value과 비교함
 		//	   이 중 최소인 값이 min_value로 설정됨
-		int min_value = num_of_square_number[i-1];
-		for (int j = 2; j*j <= i; j++)
+		int min_value = num_of_square_number[i - 1];
+		for (int j = 2; j * j <= i; j++)
 		{
 			if (min_value > num_of_square_number[i - (j * j)]) {
 				min_value = num_of_square_number[i - (j * j)];

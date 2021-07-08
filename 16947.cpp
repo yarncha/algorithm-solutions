@@ -42,7 +42,6 @@ int dfs(int prev_point, int current_point) {
 			cycle.push_back(current_point);
 			return map[current_point][i];
 		}
-
 	}
 	return -1;
 }
@@ -82,10 +81,8 @@ void Solution16947() {
 		map[from].push_back(to);
 	}
 
-
 	//사이클 탐색
 	dfs(1, 1);
-
 
 	// 구한 사이클 정점을 통해 역의 거리 탐색
 	for (int k = 0; k < cycle.size(); k++)
@@ -98,7 +95,6 @@ void Solution16947() {
 	{
 		cout << dist_from_cycle[j] - 1 << " ";
 	}
-
 }
 
 int main(void) {

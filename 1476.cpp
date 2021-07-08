@@ -9,10 +9,10 @@ void Solution1476() {
 
 	for (int i = 0;; i++)
 	{
-		if (i % 15 == e -1) {
+		if (i % 15 == e - 1) {
 			if (i % 28 == s - 1) {
 				if (i % 19 == m - 1) {
-					cout << i+1;
+					cout << i + 1;
 					return;
 				}
 			}

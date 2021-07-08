@@ -114,7 +114,6 @@ void Solution4963() {
 		// 해당 테스트 케이스의 연결 요소 출력
 		cout << total_num_of_divisions << "\n";
 	}
-
 }
 
 int main(void) {

@@ -37,7 +37,7 @@ void Solution1697() {
 		}
 	}
 
-	cout << time_to_get[dest] -1<< "\n";
+	cout << time_to_get[dest] - 1 << "\n";
 }
 
 int main(void) {

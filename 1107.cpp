@@ -19,7 +19,6 @@ bool is_valid_number(int input_number, int* buttons) {
 void Solution1107() {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-
 	// 1. 이동하려고 하는 채널과, 고장난 버튼을 입력받음
 	int destination;		// 이동하려는 채널
 	cin >> destination;
@@ -37,7 +36,6 @@ void Solution1107() {
 		num_of_button--;
 	}
 
-
 	// 2. 100부터 목적지까지 거리를 초기값으로 지정해두고, 아무 버튼도 쓸 수 없을 때의 처리를 해줌
 	int total_move_to_destination = 100 - destination;			// 나중에 출력해줄 답. 초기값은 100에서 목적지까지 +나 -버튼만 눌러서 이동하는 횟수임
 	if (total_move_to_destination < 0) {
@@ -49,7 +47,6 @@ void Solution1107() {
 		cout << total_move_to_destination;
 		return;
 	}
-
 
 	// 3. 쓸 수 있는 버튼으로 자리수 늘려가며 전부 검사
 	// 먼저 destination의 범위를 구함. 그 주변만 검사하면 될 것 같은데...!!

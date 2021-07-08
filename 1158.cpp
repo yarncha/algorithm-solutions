@@ -33,7 +33,6 @@ int main(void) {
 	cout << q.front();
 	q.pop();
 
-
 	cout << ">";
 	return 0;
 }

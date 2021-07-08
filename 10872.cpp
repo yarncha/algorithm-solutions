@@ -8,7 +8,7 @@ int main(void) {
 	int output_number = 1;
 	cin >> input_number;
 
-	for (int i = 2; i < input_number+1; i++)
+	for (int i = 2; i < input_number + 1; i++)
 	{
 		output_number = output_number * i;
 	}

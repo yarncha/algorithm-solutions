@@ -35,7 +35,6 @@ void Solution2133() {
 			num_of_cases_to_fill_rectangle[i] += 2 * num_of_cases_to_fill_rectangle[i - j];
 		}
 		num_of_cases_to_fill_rectangle[i] += 2;
-
 	}
 
 	cout << num_of_cases_to_fill_rectangle[input];

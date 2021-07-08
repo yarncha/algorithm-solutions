@@ -29,7 +29,6 @@ void Solution11653() {
 			break;
 		}
 	}
-
 }
 
 int main(void) {

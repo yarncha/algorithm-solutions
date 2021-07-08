@@ -5,7 +5,6 @@ using namespace std;
 void Solution3085() {
 	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
-
 	// 1. 먼저 입력을 받아 줌
 	char board[51][51];		// 보드에 사탕이 채워져 있는 상태를 저장할 배열
 
@@ -22,7 +21,6 @@ void Solution3085() {
 			board[i][j] = input_string.at(j);
 		}
 	}
-
 
 	// 2. 전체에서 가장 긴 연속된 같은 색깔의 사탕의 길이를 구함
 	int max_length_of_continuous_colors = 0;
@@ -84,7 +82,6 @@ void Solution3085() {
 		current_length_of_continuous_colors = 1;
 	}
 
-
 	// 3. max를 가지고 있는 상태에서 사탕을 옆이나 아래와 교환했을 때 max가 달라지는지 구해서 max값 조정
 	for (int x = 0; x < board_size; x++)
 	{
@@ -105,8 +102,8 @@ void Solution3085() {
 			if (max_length_of_continuous_colors < counter) {
 				max_length_of_continuous_colors = counter;
 			}
-			
-			if (board[x][y]!= board[x][y+1]) {
+
+			if (board[x][y] != board[x][y + 1]) {
 				counter = 1;
 			}
 			else {
@@ -195,7 +192,7 @@ void Solution3085() {
 				max_length_of_continuous_colors = counter;
 			}
 
-			if (board[x][y] != board[x+1][y]) {
+			if (board[x][y] != board[x + 1][y]) {
 				counter = 1;
 			}
 			else {
@@ -203,7 +200,7 @@ void Solution3085() {
 			}
 			for (int i = x + 2; i < board_size; i++)
 			{
-				if (board[x+1][y] == board[i][y]) {
+				if (board[x + 1][y] == board[i][y]) {
 					counter++;
 				}
 				else {
@@ -240,7 +237,7 @@ void Solution3085() {
 			counter = 1;
 			for (int i = y - 1; i >= 0; i--)
 			{
-				if (board[x+1][y] == board[x+1][i]) {
+				if (board[x + 1][y] == board[x + 1][i]) {
 					counter++;
 				}
 				else {
@@ -249,7 +246,7 @@ void Solution3085() {
 			}
 			for (int i = y + 1; i < board_size; i++)
 			{
-				if (board[x+1][y] == board[x+1][i]) {
+				if (board[x + 1][y] == board[x + 1][i]) {
 					counter++;
 				}
 				else {
@@ -260,7 +257,7 @@ void Solution3085() {
 				max_length_of_continuous_colors = counter;
 			}
 
-			swap(board[x][y], board[x+1][y]);
+			swap(board[x][y], board[x + 1][y]);
 		}
 	}
 

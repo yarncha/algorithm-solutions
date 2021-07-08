@@ -24,7 +24,7 @@ void Solution11052() {
 		max_cost = costs_of_card_pack[j];		// 먼저 j개짜리 카드팩 하나로 샀을 경우의 가격을 max_cost로 두고,
 
 		for (int k = 1; k <= j / 2; k++) {
-			// 반복문을 이용해 카드팩 
+			// 반복문을 이용해 카드팩
 			to_compare = max_cost_of_cards[k] + max_cost_of_cards[j - k];
 			if (to_compare > max_cost) {
 				max_cost = to_compare;
