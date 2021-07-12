@@ -1,31 +1,32 @@
 #include <iostream>
 #include <vector>
-#include <queue>
+#include <stack>
 using namespace std;
 
 /*
-DFS BFS모두로 풀 수 있음
-BFS로 풀어봄
+DFS로 풀어본 방법
 */
 
 vector<int> nodes[100001];
 int parent[100001];
 
-void GetParent(int root) {
-	queue<int> q;
-	q.push(root);
+void GetParentDFS(int root) {
+	stack<int> s;
+	s.push(root);
 	parent[root] = -1;
 
-	while (!q.empty())
+	while (!s.empty())
 	{
-		int cur_node = q.front();
-		q.pop();
+		int cur_node = s.top();
+		s.pop();
 
 		for (int k = 0; k < nodes[cur_node].size(); k++)
 		{
 			if (parent[nodes[cur_node][k]] == 0) {
-				q.push(nodes[cur_node][k]);
+				s.push(cur_node);
+				s.push(nodes[cur_node][k]);
 				parent[nodes[cur_node][k]] = cur_node;
+				break;
 			}
 		}
 	}
@@ -46,7 +47,7 @@ void Solution11725() {
 	}
 
 	// 벡터를 통해 노드를 저장했으면, 루트가 1이라고 주어져 있으니 루트를 기준으로 부모 노드 구하기
-	GetParent(1);
+	GetParentDFS(1);
 
 	for (int j = 2; j <= num_of_nodes; j++)
 	{

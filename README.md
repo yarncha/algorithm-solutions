@@ -74,6 +74,8 @@
 	DP
 * [2225번 합분해](https://github.com/yarncha/baekjoon/blob/master/2225.cpp)
 	DP
+* ✨[2250번 트리의 높이와 너비](https://github.com/yarncha/baekjoon/blob/master/2250.cpp)
+	트리, Queue이용한 BFS 탐색으로 최대 너비 탐색해줌, 50번째 줄에서 변수를 잘못 써서 여러 번 틀린 아쉬운 문제ㅠㅠ
 * [2309번 일곱 난쟁이](https://github.com/yarncha/baekjoon/blob/master/2309.cpp)
 * [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
@@ -87,6 +89,8 @@
 	x
 * [4963번 섬의 개수](https://github.com/yarncha/baekjoon/blob/master/4963.cpp)
 	BFS
+* [6064번 카잉 달력](https://github.com/yarncha/baekjoon/blob/master/6064.cpp)
+	브루트포스
 * [6588번 골드바흐의 추측](https://github.com/yarncha/baekjoon/blob/master/6588.cpp)
 	범위 내의 모든 소수 구하기, 에라토스테네스의 체
 * [7287번 등록](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
@@ -150,6 +154,8 @@
 	DP
 * [11724번 연결 요소의 개수](https://github.com/yarncha/baekjoon/blob/master/11724.cpp)
 	DFS 풀이
+* [11725번 트리의 부모 찾기](https://github.com/yarncha/baekjoon/blob/master/11725.cpp), [(DFS방법)](https://github.com/yarncha/baekjoon/blob/master/11725_DFS.cpp)
+	BFS, DFS
 * [11726번 2×n 타일링](https://github.com/yarncha/baekjoon/blob/master/11726.cpp)
 	DP
 * [11727번 2×n 타일링 2](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)
