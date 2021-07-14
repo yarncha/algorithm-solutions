@@ -21,7 +21,7 @@
 * [1158번 요세푸스 문제](https://github.com/yarncha/baekjoon/blob/master/1158.cpp)
   Queue
 * [1167번 트리의 지름](https://github.com/yarncha/baekjoon/blob/master/1167.cpp)
-	DFS
+	1967번과 비슷한 문제, DFS 탐색을 2번 이용하여 풀음
 * [1212번 8진수 2진수](https://github.com/yarncha/baekjoon/blob/master/1212.cpp)
 * [1260번 DFS와 BFS](https://github.com/yarncha/baekjoon/blob/master/1260.cpp)
 	BFS, DFS
@@ -56,6 +56,8 @@
 * [1934번 최소공배수](https://github.com/yarncha/baekjoon/blob/master/1934.cpp)
 	gcd
 * [1935번 후위 표기식2](https://github.com/yarncha/baekjoon/blob/master/1935.cpp)
+* [1967번 트리의 지름](https://github.com/yarncha/baekjoon/blob/master/1967.cpp)
+	1167번과 비슷한 문제, 포스트오더를 이용하여 풀었음
 * [1978번 소수 찾기](https://github.com/yarncha/baekjoon/blob/master/1978.cpp)
 	어떤 수가 소수인지 판단
 * [1991번 트리 순회](https://github.com/yarncha/baekjoon/blob/master/1991.cpp)
