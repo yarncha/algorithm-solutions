@@ -20,6 +20,8 @@
 	DP
 * [1158번 요세푸스 문제](https://github.com/yarncha/baekjoon/blob/master/1158.cpp)
   Queue
+* [1167번 트리의 지름](https://github.com/yarncha/baekjoon/blob/master/1167.cpp)
+	DFS
 * [1212번 8진수 2진수](https://github.com/yarncha/baekjoon/blob/master/1212.cpp)
 * [1260번 DFS와 BFS](https://github.com/yarncha/baekjoon/blob/master/1260.cpp)
 	BFS, DFS
