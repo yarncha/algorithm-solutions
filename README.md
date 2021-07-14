@@ -43,6 +43,8 @@
 	DP
 * [1707번 이분 그래프](https://github.com/yarncha/baekjoon/blob/master/1707.cpp)
 	BFS, 스스로 히든케이스도 잘 생각해보고 꼼꼼히 코드를 작성해서 놓치는 케이스는 없었는데 마지막에 출력하는 부분에서 "\n" 안해줘서 여러 번 틀렸던.. 진짜 너무 아쉬운 문제...
+* [1748번 수 이어 쓰기 1](https://github.com/yarncha/baekjoon/blob/master/1748.cpp)
+	브루트포스
 * [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
 	Stack
 * [1912번 연속합](https://github.com/yarncha/baekjoon/blob/master/1912.cpp)
