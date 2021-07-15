@@ -108,7 +108,7 @@
 	Stack
 * [9093번 단어 뒤집기](https://github.com/yarncha/baekjoon/blob/master/9093.cpp)
 	Stack
-* [9095번 1, 2, 3 더하기](https://github.com/yarncha/baekjoon/blob/master/9095.cpp)
+* [9095번 1, 2, 3 더하기](https://github.com/yarncha/baekjoon/blob/master/9095.cpp), [(재귀함수를 이용한 브루트포스 풀이)](https://github.com/yarncha/baekjoon/blob/master/9095_brute_force.cpp)
 	DP
 * [9465번 스티커](https://github.com/yarncha/baekjoon/blob/master/9465.cpp)
 	DP
