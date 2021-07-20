@@ -378,6 +378,9 @@
     <ClCompile Include="9095_brute_force.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15649.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="11725_DFS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
