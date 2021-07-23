@@ -187,6 +187,8 @@
 * [15655번 N과 M (6)](https://github.com/yarncha/baekjoon/blob/master/15655.cpp)
 * [15656번 N과 M (7)](https://github.com/yarncha/baekjoon/blob/master/15656.cpp)
 * [15657번 N과 M (8)](https://github.com/yarncha/baekjoon/blob/master/15657.cpp)
+* [15663번 N과 M (9)](https://github.com/yarncha/baekjoon/blob/master/15663.cpp)
+	중복 제거 방식을 조금 다르게 해 봤음
 * [15988번 1, 2, 3 더하기 3](https://github.com/yarncha/baekjoon/blob/master/15988.cpp)
 	DP
 * [15990번 1, 2, 3 더하기 5](https://github.com/yarncha/baekjoon/blob/master/15990.cpp)
