@@ -137,7 +137,9 @@
 * [10950번 A+B - 3](https://github.com/yarncha/baekjoon/blob/master/10950.cpp)
 * [10951번 A+B - 4](https://github.com/yarncha/baekjoon/blob/master/10951.cpp)
 * [10952번 A+B - 5](https://github.com/yarncha/baekjoon/blob/master/10952.cpp)
-* [10972번 다음 순열](https://github.com/yarncha/baekjoon/blob/master/10972.cpp), [(next_permutation 직접 구현해본 코드)](https://github.com/yarncha/baekjoon/blob/master/10972_ver2.cpp)
+* 📝[10972번 다음 순열](https://github.com/yarncha/baekjoon/blob/master/10972.cpp), [(next_permutation 직접 구현해본 코드)](https://github.com/yarncha/baekjoon/blob/master/10972_ver2.cpp)
+* 📝[10973번 이전 순열](https://github.com/yarncha/baekjoon/blob/master/10973.cpp), [(prev_permutation 직접 구현해본 코드)](https://github.com/yarncha/baekjoon/blob/master/10973_ver2.cpp)
+* [10974번 모든 순열](https://github.com/yarncha/baekjoon/blob/master/10974.cpp)
 * [10998번 AxB](https://github.com/yarncha/baekjoon/blob/master/10998.cpp)
 * [11005번 진법 변환 2](https://github.com/yarncha/baekjoon/blob/master/11005.cpp)
 * [11021번 A+B - 7](https://github.com/yarncha/baekjoon/blob/master/11021.cpp)
@@ -222,3 +224,7 @@
 
 </div>
 </details>
+
+✨ = 스스로 잘 풀었다고 생각     
+🤔 = 어려웠음     
+📝 =  주석 꼼꼼히 작성함      

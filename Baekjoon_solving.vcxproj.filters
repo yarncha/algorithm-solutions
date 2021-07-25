@@ -423,6 +423,15 @@
     <ClCompile Include="10972_ver2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10973.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10973_ver2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10974.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
