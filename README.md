@@ -138,6 +138,7 @@
 * [10950번 A+B - 3](https://github.com/yarncha/baekjoon/blob/master/10950.cpp)
 * [10951번 A+B - 4](https://github.com/yarncha/baekjoon/blob/master/10951.cpp)
 * [10952번 A+B - 5](https://github.com/yarncha/baekjoon/blob/master/10952.cpp)
+* [10971번 외판원 순회 2](https://github.com/yarncha/baekjoon/blob/master/10971.cpp)
 * 📝[10972번 다음 순열](https://github.com/yarncha/baekjoon/blob/master/10972.cpp), [(next_permutation 직접 구현해본 코드)](https://github.com/yarncha/baekjoon/blob/master/10972_ver2.cpp)
 * 📝[10973번 이전 순열](https://github.com/yarncha/baekjoon/blob/master/10973.cpp), [(prev_permutation 직접 구현해본 코드)](https://github.com/yarncha/baekjoon/blob/master/10973_ver2.cpp)
 * [10974번 모든 순열](https://github.com/yarncha/baekjoon/blob/master/10974.cpp)
