@@ -45,6 +45,7 @@
 	BFS, 스스로 히든케이스도 잘 생각해보고 꼼꼼히 코드를 작성해서 놓치는 케이스는 없었는데 마지막에 출력하는 부분에서 "\n" 안해줘서 여러 번 틀렸던.. 진짜 너무 아쉬운 문제...
 * [1748번 수 이어 쓰기 1](https://github.com/yarncha/baekjoon/blob/master/1748.cpp)
 	브루트포스
+* [1759번 암호 만들기](https://github.com/yarncha/baekjoon/blob/master/1759.cpp)
 * [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
 	Stack
 * [1912번 연속합](https://github.com/yarncha/baekjoon/blob/master/1912.cpp)
@@ -184,6 +185,8 @@
 * [14226번 이모티콘](https://github.com/yarncha/baekjoon/blob/master/14226.cpp)
 	BFS
 * [14500번 테트로미노](https://github.com/yarncha/baekjoon/blob/master/14500.cpp)
+* [14501번 퇴사(DP 풀이)](https://github.com/yarncha/baekjoon/blob/master/14501.cpp),[(재귀 풀이)](https://github.com/yarncha/baekjoon/blob/master/14501_ver2.cpp)
+	DP
 * [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
 * [15649번 N과 M (1)](https://github.com/yarncha/baekjoon/blob/master/15649.cpp)
 * [15650번 N과 M (2)](https://github.com/yarncha/baekjoon/blob/master/15650.cpp)
