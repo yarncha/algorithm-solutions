@@ -23,6 +23,7 @@
 * [1167번 트리의 지름](https://github.com/yarncha/baekjoon/blob/master/1167.cpp)
 	1967번과 비슷한 문제, DFS 탐색을 2번 이용하여 풀음
 * [1212번 8진수 2진수](https://github.com/yarncha/baekjoon/blob/master/1212.cpp)
+* [1248번 맞춰봐](https://github.com/yarncha/baekjoon/blob/master/1248.cpp)
 * [1260번 DFS와 BFS](https://github.com/yarncha/baekjoon/blob/master/1260.cpp)
 	BFS, DFS
 * [1261번 알고스팟](https://github.com/yarncha/baekjoon/blob/master/1261.cpp)
@@ -84,6 +85,7 @@
 * ✨[2250번 트리의 높이와 너비](https://github.com/yarncha/baekjoon/blob/master/2250.cpp)
 	트리, Queue이용한 BFS 탐색으로 최대 너비 탐색해줌, 50번째 줄에서 변수를 잘못 써서 여러 번 틀린 아쉬운 문제ㅠㅠ
 * [2309번 일곱 난쟁이](https://github.com/yarncha/baekjoon/blob/master/2309.cpp)
+* [2529번 부등호](https://github.com/yarncha/baekjoon/blob/master/2529.cpp)
 * [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
 * [2609번 최대공약수와 최소공배수](https://github.com/yarncha/baekjoon/blob/master/2609.cpp)
@@ -187,6 +189,7 @@
 * [14500번 테트로미노](https://github.com/yarncha/baekjoon/blob/master/14500.cpp)
 * [14501번 퇴사(DP 풀이)](https://github.com/yarncha/baekjoon/blob/master/14501.cpp),[(재귀 풀이)](https://github.com/yarncha/baekjoon/blob/master/14501_ver2.cpp)
 	DP
+* [14889번 스타트와 링크](https://github.com/yarncha/baekjoon/blob/master/14889.cpp)
 * [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
 * [15649번 N과 M (1)](https://github.com/yarncha/baekjoon/blob/master/15649.cpp)
 * [15650번 N과 M (2)](https://github.com/yarncha/baekjoon/blob/master/15650.cpp)
@@ -196,6 +199,7 @@
 * [15655번 N과 M (6)](https://github.com/yarncha/baekjoon/blob/master/15655.cpp)
 * [15656번 N과 M (7)](https://github.com/yarncha/baekjoon/blob/master/15656.cpp)
 * [15657번 N과 M (8)](https://github.com/yarncha/baekjoon/blob/master/15657.cpp)
+* [15661번 링크와 스타트](https://github.com/yarncha/baekjoon/blob/master/15661.cpp)
 * [15663번 N과 M (9)](https://github.com/yarncha/baekjoon/blob/master/15663.cpp)
 	중복 제거 방식을 조금 다르게 해 봤음
 * [15664번 N과 M (10)](https://github.com/yarncha/baekjoon/blob/master/15664.cpp)
