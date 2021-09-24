@@ -112,6 +112,8 @@
 	BFS
 * [7576번 토마토](https://github.com/yarncha/baekjoon/blob/master/7576.cpp)
 	BFS
+* [7569번 토마토](https://github.com/yarncha/baekjoon/blob/master/7569.cpp)
+	
 * [9012번 괄호](https://github.com/yarncha/baekjoon/blob/master/9012.cpp)[(스택 이용 풀이)](https://github.com/yarncha/baekjoon/blob/master/9012_스택.cpp)
 	Stack
 * [9093번 단어 뒤집기](https://github.com/yarncha/baekjoon/blob/master/9093.cpp)
