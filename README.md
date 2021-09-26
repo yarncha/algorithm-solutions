@@ -110,10 +110,10 @@
 * [7287번 등록](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
 * [7562번 나이트의 이동](https://github.com/yarncha/baekjoon/blob/master/7562.cpp)
 	BFS
+* [7569번 토마토](https://github.com/yarncha/baekjoon/blob/master/7569.cpp), [(좀 더 빠른 방법)](https://github.com/yarncha/baekjoon/blob/master/7569_better.cpp)
+	BFS, 시간 좀 오래 걸렸음
 * [7576번 토마토](https://github.com/yarncha/baekjoon/blob/master/7576.cpp)
 	BFS
-* [7569번 토마토](https://github.com/yarncha/baekjoon/blob/master/7569.cpp)
-	
 * [9012번 괄호](https://github.com/yarncha/baekjoon/blob/master/9012.cpp)[(스택 이용 풀이)](https://github.com/yarncha/baekjoon/blob/master/9012_스택.cpp)
 	Stack
 * [9093번 단어 뒤집기](https://github.com/yarncha/baekjoon/blob/master/9093.cpp)
