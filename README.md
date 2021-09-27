@@ -85,6 +85,8 @@
 * ✨[2250번 트리의 높이와 너비](https://github.com/yarncha/baekjoon/blob/master/2250.cpp)
 	트리, Queue이용한 BFS 탐색으로 최대 너비 탐색해줌, 50번째 줄에서 변수를 잘못 써서 여러 번 틀린 아쉬운 문제ㅠㅠ
 * [2309번 일곱 난쟁이](https://github.com/yarncha/baekjoon/blob/master/2309.cpp)
+* [2468번 안전 영역](https://github.com/yarncha/baekjoon/blob/master/2468.cpp)
+
 * [2529번 부등호](https://github.com/yarncha/baekjoon/blob/master/2529.cpp)
 * [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
