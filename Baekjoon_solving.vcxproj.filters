@@ -474,6 +474,9 @@
     <ClCompile Include="7569_better.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2468.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
