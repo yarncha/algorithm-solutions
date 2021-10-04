@@ -219,6 +219,7 @@
 	DP
 * [16194번 카드 구매하기 2](https://github.com/yarncha/baekjoon/blob/master/16194.cpp)
 	DP
+* [16918번 봄버맨](https://github.com/yarncha/baekjoon/blob/master/16918.cpp)
 * [16929번 Two Dots](https://github.com/yarncha/baekjoon/blob/master/16929.cpp)
 	DFS
 * [16940번 BFS 스페셜 저지](https://github.com/yarncha/baekjoon/blob/master/16940.cpp)
