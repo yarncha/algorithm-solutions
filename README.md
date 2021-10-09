@@ -122,6 +122,8 @@
 	Stack
 * [9095번 1, 2, 3 더하기](https://github.com/yarncha/baekjoon/blob/master/9095.cpp), [(재귀함수를 이용한 브루트포스 풀이)](https://github.com/yarncha/baekjoon/blob/master/9095_brute_force.cpp)
 	DP
+* [9205번 맥주 마시면서 걸어가기](https://github.com/yarncha/baekjoon/blob/master/9205.cpp)
+	플로이드 워샬
 * [9465번 스티커](https://github.com/yarncha/baekjoon/blob/master/9465.cpp)
 	DP
 * [9613번 GCD 합](https://github.com/yarncha/baekjoon/blob/master/9613.cpp)
