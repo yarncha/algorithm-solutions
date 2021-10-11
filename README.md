@@ -185,6 +185,8 @@
 	DP
 * [11727번 2×n 타일링 2](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)
 	DP
+* [11729번 하노이 탑 이동 순서](https://github.com/yarncha/baekjoon/blob/master/11729.cpp)
+	재귀
 * [13023번 ABCDE](https://github.com/yarncha/baekjoon/blob/master/13023.cpp)
 * [13398번 연속합 2](https://github.com/yarncha/baekjoon/blob/master/13398.cpp)
 	DP
