@@ -26,7 +26,7 @@ bool my_next_permutation(int* input_array, int array_size) {
 
 	// 2. 주어진 순열의 이전 순열은 14?로 시작하는 마지막 순열, 이 ?자리는 뒤에 있는 오름차순 부분에서 8보다 작은 수 중 가장 큰 수가 들어가야 하므로 탐색하면서 구한 뒤 8과 위치를 바꿔준다.
 	int index = end;
-	while (index < array_size && input_array[index]<input_array[end - 1])
+	while (index < array_size && input_array[index] < input_array[end - 1])
 	{
 		index++;
 	}

@@ -61,10 +61,8 @@ void Solution2250() {
 		}
 	}
 
-
 	// 2. 트리의 행(depth_value,level)과 열(x_value)을 알기 위해 인오더로 탐색하기
 	InOrder(root_node, 1);
-
 
 	// 3. 탐색하면서 가장 너비가 큰 곳을 찾음
 	int max_x_distance_depth = 1;

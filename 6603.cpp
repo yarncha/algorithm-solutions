@@ -57,7 +57,6 @@ void Solution6603() {
 
 		cin >> k;
 	}
-
 }
 
 int main(void) {

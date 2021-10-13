@@ -61,7 +61,7 @@ void Solution10971() {
 		route[j] = j + 1;
 	}
 
-	// 다음 순열을 하나씩 만들면서 가장 적은 비용을 들이는 여행 계획 
+	// 다음 순열을 하나씩 만들면서 가장 적은 비용을 들이는 여행 계획
 	int min_cost_sum = CalCulateCost(num_of_cities);
 	while (next_permutation(route + 1, route + num_of_cities))
 	{

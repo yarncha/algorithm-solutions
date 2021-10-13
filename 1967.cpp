@@ -72,7 +72,6 @@ void Solution1967() {
 		trees[node].push_back(temp);
 	}
 
-
 	// 트리에서 루트 노드가 주어져 있으므로 루트 노드부터 탐색을 진행하며 가장 큰 지름을 구함
 	CalculateHeightDiameter(1);
 

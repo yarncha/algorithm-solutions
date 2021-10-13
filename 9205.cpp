@@ -80,7 +80,6 @@ void Solution9205() {
 
 		// 초기화
 		lists.clear();
-
 	}
 }
 
