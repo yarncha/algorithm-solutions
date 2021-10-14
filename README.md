@@ -47,6 +47,8 @@
 * [1748번 수 이어 쓰기 1](https://github.com/yarncha/baekjoon/blob/master/1748.cpp)
 	브루트포스
 * [1759번 암호 만들기](https://github.com/yarncha/baekjoon/blob/master/1759.cpp)
+* [1788번 피보나치 수의 확장](https://github.com/yarncha/baekjoon/blob/master/1788.cpp)
+	DP
 * [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
 	Stack
 * [1912번 연속합](https://github.com/yarncha/baekjoon/blob/master/1912.cpp)
