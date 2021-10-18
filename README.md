@@ -92,6 +92,8 @@
 * [2529번 부등호](https://github.com/yarncha/baekjoon/blob/master/2529.cpp)
 * [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
 * [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
+* [2579번 계단 오르기](https://github.com/yarncha/baekjoon/blob/master/2579.cpp)
+	DP
 * [2606번 바이러스](https://github.com/yarncha/baekjoon/blob/master/2606.cpp)
 	BFS
 * [2609번 최대공약수와 최소공배수](https://github.com/yarncha/baekjoon/blob/master/2609.cpp)
