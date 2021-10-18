@@ -108,6 +108,8 @@
 	x
 * [4963번 섬의 개수](https://github.com/yarncha/baekjoon/blob/master/4963.cpp)
 	BFS
+* [5014번 스타트링크](https://github.com/yarncha/baekjoon/blob/master/5014.cpp)
+	BFS
 * [6064번 카잉 달력](https://github.com/yarncha/baekjoon/blob/master/6064.cpp)
 	브루트포스
 * [6588번 골드바흐의 추측](https://github.com/yarncha/baekjoon/blob/master/6588.cpp)
