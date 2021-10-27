@@ -1,262 +1,279 @@
 ### yamcha's
-# 백준 알고리즘 풀이 저장소
+
+# 알고리즘 풀이 저장소
+
+알고리즘 문제를 풀고 풀이를 올리는 repository 입니다.
+
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+
+### Index
+
+<!-- - [알고리즘 풀이 저장소](#알고리즘-풀이-저장소) - [Index](#index) - [Icons](#icons)
+  - [Baekjoon](#baekjoon)
+  - [LeetCode](#leetcode) -->
+
+### Icons
+
+✨ = 스스로 잘 풀었다고 생각  
+🤔 = 어려웠음  
+📝 = 주석 꼼꼼히 작성함 (참고하기 좋다)  
+👀 = 답지 참고
+
+## Baekjoon
 
 [![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=yamcha)](https://solved.ac/yamcha)
 
-***
+| No. | Name | Group | Memo | Solution |
+| --- | ---- | ----- | ---- | :------: |
+| 1000 | A+B | | | [📜](./baekjoon/1000.cpp) |
+| 1001  | A-B | | | [📜](https://github.com/yarncha/baekjoon/blob/master/1001.cpp) |
+| 1008  | A/B | | 소수점 아래 숫자 고정 | [📜](https://github.com/yarncha/baekjoon/blob/master/1008.cpp) |
+| 1107  | 리모컨 | | 브루트포스 범위 줄이려고 노력함. 예외가 너무 많아서 힘들었음 | [📜](https://github.com/yarncha/baekjoon/blob/master/1107.cpp) |
+| 1149  | RGB거리✨ | DP | | [📜](https://github.com/yarncha/baekjoon/blob/master/1149.cpp) |
+| 1158  | 요세푸스 문제 | Queue | | [📜](https://github.com/yarncha/baekjoon/blob/master/1158.cpp) |
+| 1167  | 트리의 지름 | DFS | 1967번과 비슷한 문제, DFS 탐색을 2번 이용하여 풀음 | [📜](https://github.com/yarncha/baekjoon/blob/master/1167.cpp) |
+| 1212  | 8진수 2진수                    |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1212.cpp)                                                        |
+| 1248  | 맞춰봐                         |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1248.cpp)                                                        |
+| 1260  | DFS와 BFS                      | BFS, DFS                                              |                                                                                                                                                                      |                                                                                                                                                                             | [📜](https://github.com/yarncha/baekjoon/blob/master/1260.cpp) |
+| 1261  | 알고스팟                       | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1261.cpp)                                                        |
+| 1309  | 동물원✨                       | DP                                                    |                                                                                                                                                                      |                                                                                                                                                                             | [📜](https://github.com/yarncha/baekjoon/blob/master/1309.cpp) |
+| 1373  | 2진수 8진수                    |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1373.cpp)                                                        |
+| 1406  | 에디터                         | Stack                                                 |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1406.cpp)                                                        |
+| 1463  | 1로 만들기                     | DP                                                    |                                                                                                                                                                      |       [📜Top-down방식](https://github.com/yarncha/baekjoon/blob/master/1463.cpp), [📜Bottom-up 방식](https://github.com/yarncha/baekjoon/blob/master/1463_bottom.cpp)       |
+| 1476  | 날짜 계산                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1476.cpp)                                                        |
+| 1676  | 팩토리얼 0의 개수✨            |                                                       | 팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨                                                                                                               |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1676.cpp)                                                        |
+| 1697  | 숨바꼭질                       | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1697.cpp)                                                        |
+| 1699  | 제곱수의 합                    | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1699.cpp)                                                        |
+| 1707  | 이분 그래프                    | BFS                                                   | 스스로 히든케이스도 잘 생각해보고 꼼꼼히 코드를 작성해서 놓치는 케이스는 없었는데 마지막에 출력하는 부분에서 "\n" 안해줘서 여러 번 틀렸던.. 진짜 너무 아쉬운 문제... |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1707.cpp)                                                        |
+| 1748  | 수 이어 쓰기 1                 | 브루트포스                                            |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1748.cpp)                                                        |
+| 1759  | 암호 만들기                    |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1759.cpp)                                                        |
+| 1788  | 피보나치 수의 확장             | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1788.cpp)                                                        |
+| 1874  | 스택 수열                      | Stack                                                 |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)                                                        |
+| 1912  | 연속합                         | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1912.cpp)                                                        |
+| 1918  | 후위 표기식                    | 차량기지 알고리즘(중위 표기법을 후위 표기법으로 변환) |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1918.cpp)                                                        |
+| 1929  | 소수 구하기                    | 범위 내의 모든 소수 구하기, 에라토스테네스의 체       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1929.cpp)                                                        |
+| 1932  | 정수 삼각형✨                  | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1932.cpp)                                                        |
+| 1934  | 최소공배수                     | gcd                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1934.cpp)                                                        |
+| 1935  | 후위 표기식2                   |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1935.cpp)                                                        |
+| 1967  | 트리의 지름                    |                                                       | 1167번과 비슷한 문제, 포스트오더를 이용하여 풀었음                                                                                                                   |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1967.cpp)                                                        |
+| 1978  | 소수 찾기                      |                                                       | 어떤 수가 소수인지 판단                                                                                                                                              |                                                                                                                                                                             | [📜](https://github.com/yarncha/baekjoon/blob/master/1978.cpp) |
+| 1991  | 트리 순회                      | 트리                                                  |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/1991.cpp)                                                        |
+| 2004  | 조합 0의 개수✨                |                                                       | 조합에서 0의 개수 구하기, 팩토리얼과 비슷, 이번엔 5와 2 같이 세기                                                                                                    |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2004.cpp)                                                        |
+| 2089  | -2진수                         |                                                       | 진수 변환 (수학)                                                                                                                                                     |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2089.cpp)                                                        |
+| 2133  | 타일 채우기                    | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2133.cpp)                                                        |
+| 2146  | 다리 만들기✨                  | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2146.cpp)                                                        |
+| 2156  | 포도주 시식                    | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2156.cpp)                                                        |
+| 2178  | 미로 탐색                      | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2178.cpp)                                                        |
+| 2193  | 이친수                         | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2193.cpp)                                                        |
+| 2225  | 합분해                         | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2225.cpp)                                                        |
+| 2250  | 트리의 높이와 너비✨           |                                                       | 트리, Queue이용한 BFS 탐색으로 최대 너비 탐색해줌, 50번째 줄에서 변수를 잘못 써서 여러 번 틀린 아쉬운 문제ㅠㅠ                                                       |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2250.cpp)                                                        |
+| 2309  | 일곱 난쟁이                    |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2309.cpp)                                                        |
+| 2468  | 안전 영역                      | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2468.cpp)                                                        |
+| 2529  | 부등호                         |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2529.cpp)                                                        |
+| 2557  | Hello World                    |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)                                                        |
+| 2558  | A+B - 2                        |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)                                                        |
+| 2579  | 계단 오르기                    | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2579.cpp)                                                        |
+| 2606  | 바이러스                       | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2606.cpp)                                                        |
+| 2609  | 최대공약수와 최소공배수        | gcd, lcm                                              |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2609.cpp)                                                        |
+| 2644  | 촌수계산                       | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2644.cpp)                                                        |
+| 2667  | 단지번호붙이기                 | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2667.cpp)                                                        |
+| 2743  | 단어 길이 재기                 |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2743.cpp)                                                        |
+| 2745  | 진법 변환                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/2745.cpp)                                                        |
+| 3085  | 사탕 게임                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/3085.cpp)                                                        |
+| 4963  | 섬의 개수                      | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/4963.cpp)                                                        |
+| 5014  | 스타트링크                     | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/5014.cpp)                                                        |
+| 6064  | 카잉 달력                      | 브루트포스                                            |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/6064.cpp)                                                        |
+| 6588  | 골드바흐의 추측                |                                                       | 범위 내의 모든 소수 구하기, 에라토스테네스의 체                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/6588.cpp)                                                        |
+| 6603  | 로또                           |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/6603.cpp)                                                        |
+| 7287  | 등록                           |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)                                                        |
+| 7562  | 나이트의 이동                  | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/7562.cpp)                                                        |
+| 7569  | 토마토                         | BFS                                                   | 시간 좀 오래 걸렸음                                                                                                                                                  |            [📜](https://github.com/yarncha/baekjoon/blob/master/7569.cpp), [📜좀 더 빠른 방법](https://github.com/yarncha/baekjoon/blob/master/7569_better.cpp)             |
+| 7576  | 토마토                         | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/7576.cpp)                                                        |
+| 9012  | 괄호                           | Stack                                                 |                                                                                                                                                                      |              [📜](https://github.com/yarncha/baekjoon/blob/master/9012.cpp), [📜스택 이용 풀이](https://github.com/yarncha/baekjoon/blob/master/9012_스택.cpp)              |
+| 9093  | 단어 뒤집기                    | Stack                                                 |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/9093.cpp)                                                        |
+| 9095  | 1, 2, 3 더하기                 | DP                                                    |                                                                                                                                                                      | [📜](https://github.com/yarncha/baekjoon/blob/master/9095.cpp), [📜재귀함수를 이용한 브루트포스 풀이](https://github.com/yarncha/baekjoon/blob/master/9095_brute_force.cpp) |
+| 9205  | 맥주 마시면서 걸어가기         | 플로이드 워샬                                         |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/9205.cpp)                                                        |
+| 9465  | 스티커                         | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/9465.cpp)                                                        |
+| 9613  | GCD 합                         | gcd                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/9613.cpp)                                                        |
+| 10430 | 나머지                         |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10430.cpp)                                                       |
+| 10718 | We love kriii                  |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10718.cpp)                                                       |
+| 10799 | 쇠막대기                       | Stack                                                 |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10799.cpp)                                                       |
+| 10808 | 알파벳 개수                    | 아스키코드, string                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10808.cpp)                                                       |
+| 10809 | 알파벳 찾기                    | 아스키코드, string                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10809.cpp)                                                       |
+| 10819 | 차이를 최대로                  |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10819.cpp)                                                       |
+| 10820 | 문자열 분석                    |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10820.cpp)                                                       |
+| 10824 | 네 수                          |                                                       |                                                                                                                                                                      |   [📜자리수 이용 풀이](https://github.com/yarncha/baekjoon/blob/master/10824.cpp), [📜문자열 관련 함수 사용](https://github.com/yarncha/baekjoon/blob/master/10824_b.cpp)   |
+| 10828 | 스택(구현)                     | Stack                                                 |                                                                                                                                                                      |     [📜](https://github.com/yarncha/baekjoon/blob/master/10828_구현.cpp),[📜라이브러리 사용](https://github.com/yarncha/baekjoon/blob/master/10828_라이브러리_사용.cpp)     |
+| 10844 | 쉬운 계단 수                   | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10844.cpp)                                                       |
+| 10845 | 큐(구현)                       | Queue                                                 |                                                                                                                                                                      |                                         [📜](https://github.com/yarncha/baekjoon/blob/master/10845_큐_구현.cpp),[📜라이브러리 사용](https://github.com/yarncha/baekjoon/blob/master/10845_큐_라이브러리_사용.cpp) |
+| 10866 | 덱                             | Stack, Queue                                          |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10866.cpp)                                                       |
+| 10869 | 사칙연산                       |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10869.cpp)                                                       |
+| 10872 | 팩토리얼                       |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10872.cpp)                                                       |
+| 10950 | A+B - 3                        |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10950.cpp)                                                       |
+| 10951 | A+B - 4                        |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10951.cpp)                                                       |
+| 10952 | A+B - 5                        |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10952.cpp)                                                       |
+| 10971 | 외판원 순회 2                  |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10971.cpp)                                                       |
+| 10972 | 다음 순열📝                    |                                                       |                                                                                                                                                                      |  [📜](https://github.com/yarncha/baekjoon/blob/master/10972.cpp), [📜next_permutation 직접 구현해본 코드](https://github.com/yarncha/baekjoon/blob/master/10972_ver2.cpp)   |
+| 10973 | 이전 순열📝                    |                                                       |                                                                                                                                                                      |  [📜](https://github.com/yarncha/baekjoon/blob/master/10973.cpp), [📜prev_permutation 직접 구현해본 코드](https://github.com/yarncha/baekjoon/blob/master/10973_ver2.cpp)   |
+| 10974 | 모든 순열                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10974.cpp)                                                       |
+| 10998 | AxB                            |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/10998.cpp)                                                       |
+| 11005 | 진법 변환 2                    |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11005.cpp)                                                       |
+| 11021 | A+B - 7                        |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11021.cpp)                                                       |
+| 11022 | A+B - 8                        |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11022.cpp)                                                       |
+| 11052 | 카드 구매하기                  | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11052.cpp)                                                       |
+| 11053 | 가장 긴 증가하는 부분 수열✨   | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11053.cpp)                                                       |
+| 11054 | 가장 긴 바이토닉 부분 수열     | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11054.cpp)                                                       |
+| 11055 | 가장 큰 증가 부분 수열         | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11055.cpp)                                                       |
+| 11057 | 오르막 수                      | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11057.cpp)                                                       |
+| 11576 | Base Conversion                |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11576.cpp)                                                       |
+| 11653 | 소인수분해                     |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11653.cpp)                                                       |
+| 11655 | ROT13                          |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11655.cpp)                                                       |
+| 11656 | 접미사 배열                    | 정렬                                                  |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11656.cpp)                                                       |
+| 11722 | 가장 긴 감소하는 부분 수열     | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11722.cpp)                                                       |
+| 11724 | 연결 요소의 개수               | DFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11724.cpp)                                                       |
+| 11725 | 트리의 부모 찾기               | BFS, DFS                                              |                                                                                                                                                                      |                 [📜](https://github.com/yarncha/baekjoon/blob/master/11725.cpp), [📜DFS방법](https://github.com/yarncha/baekjoon/blob/master/11725_DFS.cpp)                 |
+| 11726 | 2×n 타일링                     | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11726.cpp)                                                       |
+| 11727 | 2×n 타일링 2                   | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)                                                       |
+| 11729 | 하노이 탑 이동 순서            | 재귀                                                  |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/11729.cpp)                                                       |
+| 13023 | ABCDE                          |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/13023.cpp)                                                       |
+| 13398 | 연속합 2                       | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/13398.cpp)                                                       |
+| 13549 | 숨바꼭질 3                     | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/13549.cpp)                                                       |
+| 13913 | 숨바꼭질 4                     | BFS, 백트래킹                                         |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/13913.cpp)                                                       |
+| 14002 | 가장 긴 증가하는 부분 수열 4✨ | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/14002.cpp)                                                       |
+| 14226 | 이모티콘                       | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/14226.cpp)                                                       |
+| 14500 | 테트로미노                     |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/14500.cpp)                                                       |
+| 14501 | 퇴사                           | DP                                                    |                                                                                                                                                                      |            [📜DP 풀이](https://github.com/yarncha/baekjoon/blob/master/14501.cpp),[📜재귀 풀이](https://github.com/yarncha/baekjoon/blob/master/14501_ver2.cpp)             |
+| 14503 | 로봇 청소기🤔                  | DFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/14503.cpp)                                                       |
+| 14889 | 스타트와 링크                  |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/14889.cpp)                                                       |
+| 15353 | 큰 수 A+B (2)                  |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)                                                       |
+| 15649 | N과 M (1)                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15649.cpp)                                                       |
+| 15650 | N과 M (2)                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15650.cpp)                                                       |
+| 15651 | N과 M (3)                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15651.cpp)                                                       |
+| 15652 | N과 M (4)                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15652.cpp)                                                       |
+| 15654 | N과 M (5)                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15654.cpp)                                                       |
+| 15655 | N과 M (6)                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15655.cpp)                                                       |
+| 15656 | N과 M (7)                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15656.cpp)                                                       |
+| 15657 | N과 M (8)                      |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15657.cpp)                                                       |
+| 15661 | 링크와 스타트                  |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15661.cpp)                                                       |
+| 15663 | N과 M (9)                      |                                                       | 중복 제거 방식을 조금 다르게 해 봤음                                                                                                                                 |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15663.cpp)                                                       |
+| 15664 | N과 M (10)                     |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15664.cpp)                                                       |
+| 15665 | N과 M (11)                     |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15665.cpp)                                                       |
+| 15666 | N과 M (12)                     |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15666.cpp)                                                       |
+| 15988 | 1, 2, 3 더하기 3               | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15988.cpp)                                                       |
+| 15990 | 1, 2, 3 더하기 5               | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/15990.cpp)                                                       |
+| 16194 | 카드 구매하기 2                | DP                                                    |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/16194.cpp)                                                       |
+| 16918 | 봄버맨                         |                                                       |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/16918.cpp)                                                       |
+| 16929 | Two Dots                       | DFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/16929.cpp)                                                       |
+| 16940 | BFS 스페셜 저지                | BFS                                                   |                                                                                                                                                                      |                                                       [📜](https://github.com/yarncha/baekjoon/blob/master/16940.cpp)                                                       |
 
-#### 진행상황
-<details open>
-<summary>Solved</summary>
-<div markdown="1">
+16947|서울 지하철 2호선|||[📜](https://github.com/yarncha/baekjoon/blob/master/16947.cpp)
+DFS, BFS
+16964|DFS 스페셜 저지|DFS||[📜](https://github.com/yarncha/baekjoon/blob/master/16964.cpp)
+17087|숨바꼭질 6|||[📜](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
+gcd (최대공약수)
+17103|골드바흐 파티션|||[📜](https://github.com/yarncha/baekjoon/blob/master/17103.cpp)
+범위 내의 모든 소수 구하기, 에라토스테네스의 체
+17298|오큰수|||[📜](https://github.com/yarncha/baekjoon/blob/master/17298.cpp)
+Stack
+17299|오등큰수|||[📜](https://github.com/yarncha/baekjoon/blob/master/17299.cpp)
+Stack
+17404|RGB거리 2|||[📜](https://github.com/yarncha/baekjoon/blob/master/17404.cpp)
+DP
+17413|단어 뒤집기 2|||[📜](https://github.com/yarncha/baekjoon/blob/master/17413.cpp)
+Stack
 
-* [1000번 A+B](https://github.com/yarncha/baekjoon/blob/master/1000.cpp)
-* [1001번 A-B](https://github.com/yarncha/baekjoon/blob/master/1001.cpp)
-* [1008번 A/B](https://github.com/yarncha/baekjoon/blob/master/1008.cpp)
-	소수점 아래 숫자 고정
-* [1107번 리모컨](https://github.com/yarncha/baekjoon/blob/master/1107.cpp)
-	x 브루트포스 범위 줄이려고 노력함. 예외가 너무 많아서 힘들었음
-* ✨[1149번 RGB거리](https://github.com/yarncha/baekjoon/blob/master/1149.cpp)
-	DP
-* [1158번 요세푸스 문제](https://github.com/yarncha/baekjoon/blob/master/1158.cpp)
-  Queue
-* [1167번 트리의 지름](https://github.com/yarncha/baekjoon/blob/master/1167.cpp)
-	1967번과 비슷한 문제, DFS 탐색을 2번 이용하여 풀음
-* [1212번 8진수 2진수](https://github.com/yarncha/baekjoon/blob/master/1212.cpp)
-* [1248번 맞춰봐](https://github.com/yarncha/baekjoon/blob/master/1248.cpp)
-* [1260번 DFS와 BFS](https://github.com/yarncha/baekjoon/blob/master/1260.cpp)
-	BFS, DFS
-* [1261번 알고스팟](https://github.com/yarncha/baekjoon/blob/master/1261.cpp)
-	BFS
-* ✨[1309번 동물원](https://github.com/yarncha/baekjoon/blob/master/1309.cpp)
-	DP
-* [1373번 2진수 8진수](https://github.com/yarncha/baekjoon/blob/master/1373.cpp)
-* [1406번 에디터](https://github.com/yarncha/baekjoon/blob/master/1406.cpp)
-  Stack
-* [1463번 1로 만들기 (Top-down 방식)](https://github.com/yarncha/baekjoon/blob/master/1463.cpp), [Bottom-up 방식](https://github.com/yarncha/baekjoon/blob/master/1463_bottom.cpp)
-	DP
-* [1476번 날짜 계산](https://github.com/yarncha/baekjoon/blob/master/1476.cpp)
-* ✨[1676번 팩토리얼 0의 개수](https://github.com/yarncha/baekjoon/blob/master/1676.cpp)
-	팩토리얼에서의 0의 개수 구하기, 5의 개수로 세어보면 됨
-* [1697번 숨바꼭질](https://github.com/yarncha/baekjoon/blob/master/1697.cpp)
-	BFS
-* [1699번 제곱수의 합](https://github.com/yarncha/baekjoon/blob/master/1699.cpp)
-	DP
-* [1707번 이분 그래프](https://github.com/yarncha/baekjoon/blob/master/1707.cpp)
-	BFS, 스스로 히든케이스도 잘 생각해보고 꼼꼼히 코드를 작성해서 놓치는 케이스는 없었는데 마지막에 출력하는 부분에서 "\n" 안해줘서 여러 번 틀렸던.. 진짜 너무 아쉬운 문제...
-* [1748번 수 이어 쓰기 1](https://github.com/yarncha/baekjoon/blob/master/1748.cpp)
-	브루트포스
-* [1759번 암호 만들기](https://github.com/yarncha/baekjoon/blob/master/1759.cpp)
-* [1788번 피보나치 수의 확장](https://github.com/yarncha/baekjoon/blob/master/1788.cpp)
-	DP
-* [1874번 스택 수열](https://github.com/yarncha/baekjoon/blob/master/1874.cpp)
-	Stack
-* [1912번 연속합](https://github.com/yarncha/baekjoon/blob/master/1912.cpp)
-	DP
-* [1918번 후위 표기식](https://github.com/yarncha/baekjoon/blob/master/1918.cpp)
-	차량기지 알고리즘(중위 표기법을 후위 표기법으로 변환)
-* [1929번 소수 구하기](https://github.com/yarncha/baekjoon/blob/master/1929.cpp)
-	범위 내의 모든 소수 구하기, 에라토스테네스의 체
-* ✨[1932번 정수 삼각형](https://github.com/yarncha/baekjoon/blob/master/1932.cpp)
-	DP
-* [1934번 최소공배수](https://github.com/yarncha/baekjoon/blob/master/1934.cpp)
-	gcd
-* [1935번 후위 표기식2](https://github.com/yarncha/baekjoon/blob/master/1935.cpp)
-* [1967번 트리의 지름](https://github.com/yarncha/baekjoon/blob/master/1967.cpp)
-	1167번과 비슷한 문제, 포스트오더를 이용하여 풀었음
-* [1978번 소수 찾기](https://github.com/yarncha/baekjoon/blob/master/1978.cpp)
-	어떤 수가 소수인지 판단
-* [1991번 트리 순회](https://github.com/yarncha/baekjoon/blob/master/1991.cpp)
-	트리
-* ✨[2004번 조합 0의 개수](https://github.com/yarncha/baekjoon/blob/master/2004.cpp)
-	조합에서 0의 개수 구하기, 팩토리얼과 비슷, 이번엔 5와 2 같이 세기
-* [2089번 -2진수](https://github.com/yarncha/baekjoon/blob/master/2089.cpp)
-	진수 변환 (수학)
-* [2133번 타일 채우기](https://github.com/yarncha/baekjoon/blob/master/2133.cpp)
-	DP
-* ✨[2146번 다리 만들기](https://github.com/yarncha/baekjoon/blob/master/2146.cpp)
-	BFS
-* [2156번 포도주 시식](https://github.com/yarncha/baekjoon/blob/master/2156.cpp)
-	DP
-* [2178번 미로 탐색](https://github.com/yarncha/baekjoon/blob/master/2178.cpp)
-	BFS
-* [2193번 이친수](https://github.com/yarncha/baekjoon/blob/master/2193.cpp)
-	DP
-* [2225번 합분해](https://github.com/yarncha/baekjoon/blob/master/2225.cpp)
-	DP
-* ✨[2250번 트리의 높이와 너비](https://github.com/yarncha/baekjoon/blob/master/2250.cpp)
-	트리, Queue이용한 BFS 탐색으로 최대 너비 탐색해줌, 50번째 줄에서 변수를 잘못 써서 여러 번 틀린 아쉬운 문제ㅠㅠ
-* [2309번 일곱 난쟁이](https://github.com/yarncha/baekjoon/blob/master/2309.cpp)
-* [2468번 안전 영역](https://github.com/yarncha/baekjoon/blob/master/2468.cpp)
-	BFS
-* [2529번 부등호](https://github.com/yarncha/baekjoon/blob/master/2529.cpp)
-* [2557번 Hello World](https://github.com/yarncha/baekjoon/blob/master/2557.cpp)
-* [2558번 A+B - 2](https://github.com/yarncha/baekjoon/blob/master/2558.cpp)
-* [2579번 계단 오르기](https://github.com/yarncha/baekjoon/blob/master/2579.cpp)
-	DP
-* [2606번 바이러스](https://github.com/yarncha/baekjoon/blob/master/2606.cpp)
-	BFS
-* [2609번 최대공약수와 최소공배수](https://github.com/yarncha/baekjoon/blob/master/2609.cpp)
-	gcd, lcm
-* [2644번 촌수계산](https://github.com/yarncha/baekjoon/blob/master/2644.cpp)
-	BFS
-* [2667번 단지번호붙이기](https://github.com/yarncha/baekjoon/blob/master/2667.cpp)
-	BFS
-* [2743번 단어 길이 재기](https://github.com/yarncha/baekjoon/blob/master/2743.cpp)
-* [2745번 진법 변환](https://github.com/yarncha/baekjoon/blob/master/2745.cpp)
-* [3085번 사탕 게임](https://github.com/yarncha/baekjoon/blob/master/3085.cpp)
-	x
-* [4963번 섬의 개수](https://github.com/yarncha/baekjoon/blob/master/4963.cpp)
-	BFS
-* [5014번 스타트링크](https://github.com/yarncha/baekjoon/blob/master/5014.cpp)
-	BFS
-* [6064번 카잉 달력](https://github.com/yarncha/baekjoon/blob/master/6064.cpp)
-	브루트포스
-* [6588번 골드바흐의 추측](https://github.com/yarncha/baekjoon/blob/master/6588.cpp)
-	범위 내의 모든 소수 구하기, 에라토스테네스의 체
-* [6603번 로또](https://github.com/yarncha/baekjoon/blob/master/6603.cpp)
-* [7287번 등록](https://github.com/yarncha/baekjoon/blob/master/7287.cpp)
-* [7562번 나이트의 이동](https://github.com/yarncha/baekjoon/blob/master/7562.cpp)
-	BFS
-* [7569번 토마토](https://github.com/yarncha/baekjoon/blob/master/7569.cpp), [(좀 더 빠른 방법)](https://github.com/yarncha/baekjoon/blob/master/7569_better.cpp)
-	BFS, 시간 좀 오래 걸렸음
-* [7576번 토마토](https://github.com/yarncha/baekjoon/blob/master/7576.cpp)
-	BFS
-* [9012번 괄호](https://github.com/yarncha/baekjoon/blob/master/9012.cpp)[(스택 이용 풀이)](https://github.com/yarncha/baekjoon/blob/master/9012_스택.cpp)
-	Stack
-* [9093번 단어 뒤집기](https://github.com/yarncha/baekjoon/blob/master/9093.cpp)
-	Stack
-* [9095번 1, 2, 3 더하기](https://github.com/yarncha/baekjoon/blob/master/9095.cpp), [(재귀함수를 이용한 브루트포스 풀이)](https://github.com/yarncha/baekjoon/blob/master/9095_brute_force.cpp)
-	DP
-* [9205번 맥주 마시면서 걸어가기](https://github.com/yarncha/baekjoon/blob/master/9205.cpp)
-	플로이드 워샬
-* [9465번 스티커](https://github.com/yarncha/baekjoon/blob/master/9465.cpp)
-	DP
-* [9613번 GCD 합](https://github.com/yarncha/baekjoon/blob/master/9613.cpp)
-	gcd
-* [10430번 나머지](https://github.com/yarncha/baekjoon/blob/master/10430.cpp)
-* [10718번 We love kriii](https://github.com/yarncha/baekjoon/blob/master/10718.cpp)
-* [10799번 쇠막대기](https://github.com/yarncha/baekjoon/blob/master/10799.cpp)
-	Stack
-* [10808번 알파벳 개수](https://github.com/yarncha/baekjoon/blob/master/10808.cpp)
-	아스키코드, string
-* [10809번 알파벳 찾기](https://github.com/yarncha/baekjoon/blob/master/10809.cpp)
-	아스키코드, string
-* [10819번 차이를 최대로](https://github.com/yarncha/baekjoon/blob/master/10819.cpp)
-* [10820번 문자열 분석](https://github.com/yarncha/baekjoon/blob/master/10820.cpp)
-* [10824번 네 수 (자리수 이용 풀이)](https://github.com/yarncha/baekjoon/blob/master/10824.cpp),[(문자열 관련 함수 사용)](https://github.com/yarncha/baekjoon/blob/master/10824_b.cpp)
-* [10828번 스택(구현)](https://github.com/yarncha/baekjoon/blob/master/10828_구현.cpp),[(라이브러리 사용)](https://github.com/yarncha/baekjoon/blob/master/10828_라이브러리_사용.cpp)
-	Stack
-* [10844번 쉬운 계단 수](https://github.com/yarncha/baekjoon/blob/master/10844.cpp)
-	DP
-* [10845번 큐(구현)](https://github.com/yarncha/baekjoon/blob/master/10845_큐_구현.cpp),[(라이브러리 사용)](https://github.com/yarncha/baekjoon/blob/master/10845_큐_라이브러리_사용.cpp)
-	Queue
-* [10866번 덱](https://github.com/yarncha/baekjoon/blob/master/10866.cpp)
-	Stack, Queue
-* [10869번 사칙연산](https://github.com/yarncha/baekjoon/blob/master/10869.cpp)
-* [10872번 팩토리얼](https://github.com/yarncha/baekjoon/blob/master/10872.cpp)
-* [10950번 A+B - 3](https://github.com/yarncha/baekjoon/blob/master/10950.cpp)
-* [10951번 A+B - 4](https://github.com/yarncha/baekjoon/blob/master/10951.cpp)
-* [10952번 A+B - 5](https://github.com/yarncha/baekjoon/blob/master/10952.cpp)
-* [10971번 외판원 순회 2](https://github.com/yarncha/baekjoon/blob/master/10971.cpp)
-* 📝[10972번 다음 순열](https://github.com/yarncha/baekjoon/blob/master/10972.cpp), [(next_permutation 직접 구현해본 코드)](https://github.com/yarncha/baekjoon/blob/master/10972_ver2.cpp)
-* 📝[10973번 이전 순열](https://github.com/yarncha/baekjoon/blob/master/10973.cpp), [(prev_permutation 직접 구현해본 코드)](https://github.com/yarncha/baekjoon/blob/master/10973_ver2.cpp)
-* [10974번 모든 순열](https://github.com/yarncha/baekjoon/blob/master/10974.cpp)
-* [10998번 AxB](https://github.com/yarncha/baekjoon/blob/master/10998.cpp)
-* [11005번 진법 변환 2](https://github.com/yarncha/baekjoon/blob/master/11005.cpp)
-* [11021번 A+B - 7](https://github.com/yarncha/baekjoon/blob/master/11021.cpp)
-* [11022번 A+B - 8](https://github.com/yarncha/baekjoon/blob/master/11022.cpp)
-* [11052번 카드 구매하기](https://github.com/yarncha/baekjoon/blob/master/11052.cpp)
-	DP
-* ✨[11053번 가장 긴 증가하는 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11053.cpp)
-	DP
-* [11054번 가장 긴 바이토닉 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11054.cpp)
-	DP
-* [11055번 가장 큰 증가 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11055.cpp)
-	DP
-* [11057번 오르막 수](https://github.com/yarncha/baekjoon/blob/master/11057.cpp)
-	DP
-* [11576번 Base Conversion](https://github.com/yarncha/baekjoon/blob/master/11576.cpp)
-* [11653번 소인수분해](https://github.com/yarncha/baekjoon/blob/master/11653.cpp)
-* [11655번 ROT13](https://github.com/yarncha/baekjoon/blob/master/11655.cpp)
-* [11656번 접미사 배열](https://github.com/yarncha/baekjoon/blob/master/11656.cpp)
-	정렬
-* [11722번 가장 긴 감소하는 부분 수열](https://github.com/yarncha/baekjoon/blob/master/11722.cpp)
-	DP
-* [11724번 연결 요소의 개수](https://github.com/yarncha/baekjoon/blob/master/11724.cpp)
-	DFS 풀이
-* [11725번 트리의 부모 찾기](https://github.com/yarncha/baekjoon/blob/master/11725.cpp), [(DFS방법)](https://github.com/yarncha/baekjoon/blob/master/11725_DFS.cpp)
-	BFS, DFS
-* [11726번 2×n 타일링](https://github.com/yarncha/baekjoon/blob/master/11726.cpp)
-	DP
-* [11727번 2×n 타일링 2](https://github.com/yarncha/baekjoon/blob/master/11727.cpp)
-	DP
-* [11729번 하노이 탑 이동 순서](https://github.com/yarncha/baekjoon/blob/master/11729.cpp)
-	재귀
-* [13023번 ABCDE](https://github.com/yarncha/baekjoon/blob/master/13023.cpp)
-* [13398번 연속합 2](https://github.com/yarncha/baekjoon/blob/master/13398.cpp)
-	DP
-* [13549번 숨바꼭질 3](https://github.com/yarncha/baekjoon/blob/master/13549.cpp)
-	BFS
-* [13913번 숨바꼭질 4](https://github.com/yarncha/baekjoon/blob/master/13913.cpp)
-	BFS, 백트래킹
-* ✨[14002번 가장 긴 증가하는 부분 수열 4](https://github.com/yarncha/baekjoon/blob/master/14002.cpp)
-	DP
-* [14226번 이모티콘](https://github.com/yarncha/baekjoon/blob/master/14226.cpp)
-	BFS
-* [14500번 테트로미노](https://github.com/yarncha/baekjoon/blob/master/14500.cpp)
-* [14501번 퇴사(DP 풀이)](https://github.com/yarncha/baekjoon/blob/master/14501.cpp),[(재귀 풀이)](https://github.com/yarncha/baekjoon/blob/master/14501_ver2.cpp)
-	DP
-* 🤔[14503번 로봇 청소기](https://github.com/yarncha/baekjoon/blob/master/14503.cpp)
-	DFS
-* [14889번 스타트와 링크](https://github.com/yarncha/baekjoon/blob/master/14889.cpp)
-* [15353번 큰 수 A+B (2)](https://github.com/yarncha/baekjoon/blob/master/15353.cpp)
-* [15649번 N과 M (1)](https://github.com/yarncha/baekjoon/blob/master/15649.cpp)
-* [15650번 N과 M (2)](https://github.com/yarncha/baekjoon/blob/master/15650.cpp)
-* [15651번 N과 M (3)](https://github.com/yarncha/baekjoon/blob/master/15651.cpp)
-* [15652번 N과 M (4)](https://github.com/yarncha/baekjoon/blob/master/15652.cpp)
-* [15654번 N과 M (5)](https://github.com/yarncha/baekjoon/blob/master/15654.cpp)
-* [15655번 N과 M (6)](https://github.com/yarncha/baekjoon/blob/master/15655.cpp)
-* [15656번 N과 M (7)](https://github.com/yarncha/baekjoon/blob/master/15656.cpp)
-* [15657번 N과 M (8)](https://github.com/yarncha/baekjoon/blob/master/15657.cpp)
-* [15661번 링크와 스타트](https://github.com/yarncha/baekjoon/blob/master/15661.cpp)
-* [15663번 N과 M (9)](https://github.com/yarncha/baekjoon/blob/master/15663.cpp)
-	중복 제거 방식을 조금 다르게 해 봤음
-* [15664번 N과 M (10)](https://github.com/yarncha/baekjoon/blob/master/15664.cpp)
-* [15665번 N과 M (11)](https://github.com/yarncha/baekjoon/blob/master/15665.cpp)
-* [15666번 N과 M (12)](https://github.com/yarncha/baekjoon/blob/master/15666.cpp)
-* [15988번 1, 2, 3 더하기 3](https://github.com/yarncha/baekjoon/blob/master/15988.cpp)
-	DP
-* [15990번 1, 2, 3 더하기 5](https://github.com/yarncha/baekjoon/blob/master/15990.cpp)
-	DP
-* [16194번 카드 구매하기 2](https://github.com/yarncha/baekjoon/blob/master/16194.cpp)
-	DP
-* [16918번 봄버맨](https://github.com/yarncha/baekjoon/blob/master/16918.cpp)
-* [16929번 Two Dots](https://github.com/yarncha/baekjoon/blob/master/16929.cpp)
-	DFS
-* [16940번 BFS 스페셜 저지](https://github.com/yarncha/baekjoon/blob/master/16940.cpp)
-	BFS
-* [16947번 서울 지하철 2호선](https://github.com/yarncha/baekjoon/blob/master/16947.cpp)
-	DFS, BFS
-* [16964번 DFS 스페셜 저지](https://github.com/yarncha/baekjoon/blob/master/16964.cpp)
-	DFS
-* [17087번 숨바꼭질 6](https://github.com/yarncha/baekjoon/blob/master/17087.cpp)
-	gcd (최대공약수)
-* [17103번 골드바흐 파티션](https://github.com/yarncha/baekjoon/blob/master/17103.cpp)
-	범위 내의 모든 소수 구하기, 에라토스테네스의 체
-* [17298번 오큰수](https://github.com/yarncha/baekjoon/blob/master/17298.cpp)
-	Stack
-* [17299번 오등큰수](https://github.com/yarncha/baekjoon/blob/master/17299.cpp)
-	Stack
-* [17404번 RGB거리 2](https://github.com/yarncha/baekjoon/blob/master/17404.cpp)
-	DP
-* [17413번 단어 뒤집기 2](https://github.com/yarncha/baekjoon/blob/master/17413.cpp)
-  Stack
+## LeetCode
+
+![LeetCode|||[📜](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
+
+| No. | Name | Group | Memo | Solution |
+| --- | ---- | ----- | ---- | :------: |
+| 1 | Two Sum | | | [📜](https://github.com/yarncha/baekjoon/blob/master/1.cpp) |
+| 20 | Valid Parentheses | | | [📜](https://github.com/yarncha/baekjoon/blob/master/20.cpp) |
+| 53 | Maximum Subarray | DP | later, try this problem with divide and conquer | [📜](https://github.com/yarncha/baekjoon/blob/master/53.cpp) |
+| 70 |Climbing Stairs|||[📜](https://github.com/yarncha/baekjoon/blob/master/70.cpp)|
+|104|Maximum Depth of Binary Tree|recursion, tree||[📜](https://github.com/yarncha/baekjoon/blob/master/104.cpp)|
+|118|Pascal's Triangle|DP||[📜](https://github.com/yarncha/baekjoon/blob/master/118.cpp)|
+|119|Pascal's Triangle II|DP||[📜](https://github.com/yarncha/baekjoon/blob/master/119.cpp)|
+|121|Best Time to Buy and Sell Stock|DP||[📜](https://github.com/yarncha/baekjoon/blob/master/121.cpp)|
+|136|Single Number|| bit manipulation |[📜](https://github.com/yarncha/baekjoon/blob/master/136.cpp)|
+|145|Binary Tree Postorder Traversal|||[📜](https://github.com/yarncha/baekjoon/blob/master/145.cpp)|
+|162|Find Peak Element|||[📜](https://github.com/yarncha/baekjoon/blob/master/162.cpp)|
+| 198 | House Robber🤔 | DP | wrong several times |[📜](https://github.com/yarncha/baekjoon/blob/master/198.cpp)|
+|206|Reverse Linked List|recursion, linked list||[📜](https://github.com/yarncha/baekjoon/blob/master/206.cpp) , [📜with recursion](https://github.com/yarncha/baekjoon/blob/master/206_recursive.cpp)|
+|213|House Robber II|DP||[📜](https://github.com/yarncha/baekjoon/blob/master/213.cpp)|
+
+
+    |237|Delete Node in a Linked List|||[📜](https://github.com/yarncha/baekjoon/blob/master/237.cpp)
+    |283|Move Zeroes|||[📜](https://github.com/yarncha/baekjoon/blob/master/283.cpp)
+1| Counting Bits|||[📜](https://github.com/yarncha/baekjoon/blob/master/338.cpp)
+    DP
+2| Reverse String|||[📜](https://github.com/yarncha/baekjoon/blob/master/344.cpp)
+3| Is Subsequence|||[📜](https://github.com/yarncha/baekjoon/blob/master/392.cpp)
+4| Fizz Buzz|||[📜](https://github.com/yarncha/baekjoon/blob/master/412.cpp)
+5| Fibonacci Number|||[📜](https://github.com/yarncha/baekjoon/blob/master/509.cpp)
+    DP
+6| Valid Triangle Number|||[📜](https://github.com/yarncha/baekjoon/blob/master/611.cpp)
+7| To Lower Case|||[📜](https://github.com/yarncha/baekjoon/blob/master/709.cpp)
+    string
+8| Min Cost Climbing Stairs|||[📜](https://github.com/yarncha/baekjoon/blob/master/746.cpp), [📜0ms Runtime Solution](https://github.com/yarncha/baekjoon/blob/master/746_better.cpp)
+    DP
+9| Unique Morse Code Words|||[📜](https://github.com/yarncha/baekjoon/blob/master/804.cpp)
+    string
+10|Backspace String Compare|||[📜](https://github.com/yarncha/baekjoon/blob/master/844.cpp)
+    stack
+11|All Possible Full Binary Trees|||[📜](https://github.com/yarncha/baekjoon/blob/master/894.cpp)
+    어려웠음
+12|Minimum Add to Make Parentheses Valid|||[📜](https://github.com/yarncha/baekjoon/blob/master/921.cpp)
+    stack
+13|Max Consecutive Ones III|||[📜](https://github.com/yarncha/baekjoon/blob/master/1004.cpp)
+    Sliding Window
+14|Remove Outermost Parentheses|||[📜](https://github.com/yarncha/baekjoon/blob/master/1021.cpp)
+    stack
+15|Partition Array for Maximum Sum🤔|||[📜](https://github.com/yarncha/baekjoon/blob/master/1043.cpp)
+    DP
+16|Remove All Adjacent Duplicates In String|||[📜](https://github.com/yarncha/baekjoon/blob/master/1047.cpp)
+    stack
+17|Defanging an IP Address|||[📜](https://github.com/yarncha/baekjoon/blob/master/1108.cpp)
+18|N-th Tribonacci Number|||[📜](https://github.com/yarncha/baekjoon/blob/master/1137.cpp)
+    DP
+19|Split a String in Balanced Strings|||[📜](https://github.com/yarncha/baekjoon/blob/master/1221.cpp)
+    string
+20|Minimum Remove to Make Valid Parentheses|||[📜](https://github.com/yarncha/baekjoon/blob/master/1249.cpp)
+    stack
+21|Count Square Submatrices with All Ones|||[📜](https://github.com/yarncha/baekjoon/blob/master/1277.cpp)
+    DP
+22|Find N Unique Integers Sum up to Zero|||[📜](https://github.com/yarncha/baekjoon/blob/master/1304.cpp), [📜best solution](https://github.com/yarncha/baekjoon/blob/master/1304_best.cpp)
+23|Matrix Block Sum|||[📜](https://github.com/yarncha/baekjoon/blob/master/1314.cpp)
+24|Shuffle the Array|||[📜](https://github.com/yarncha/baekjoon/blob/master/1470.cpp)
+25|Running Sum of 1d Array|||[📜](https://github.com/yarncha/baekjoon/blob/master/1480.cpp)
+26|Number of Good Pairs|||[📜](https://github.com/yarncha/baekjoon/blob/master/1512.cpp)
+27|Shuffle String|||[📜](https://github.com/yarncha/baekjoon/blob/master/1528.cpp)
+    string
+28|Crawler Log Folder|||[📜](https://github.com/yarncha/baekjoon/blob/master/1598.cpp)
+29|Check If Two String Arrays are Equivalent|||[📜](https://github.com/yarncha/baekjoon/blob/master/1662.cpp)
+    string
+30|Count Sorted Vowel Strings|||[📜](https://github.com/yarncha/baekjoon/blob/master/1641.cpp)
+    DP
+31|Goal Parser Interpretation|||[📜](https://github.com/yarncha/baekjoon/blob/master/1678.cpp)
+    string
+32|Count the Number of Consistent Strings|||[📜](https://github.com/yarncha/baekjoon/blob/master/1684.cpp)
+    string
+33|Determine if String Halves Are Alike|||[📜](https://github.com/yarncha/baekjoon/blob/master/1704.cpp)
+    string
+34|Count Items Matching a Rule|||[📜](https://github.com/yarncha/baekjoon/blob/master/1773.cpp)
+    string
+35|Truncate Sentence|||[📜](https://github.com/yarncha/baekjoon/blob/master/1816.cpp)
+    string
+36|Check if the Sentence Is Pangram|||[📜](https://github.com/yarncha/baekjoon/blob/master/1832.cpp)
+    string
+37|Replace All Digits with Characters|||[📜](https://github.com/yarncha/baekjoon/blob/master/1844.cpp)
+    string
+38|Sorting the Sentence|||[📜](https://github.com/yarncha/baekjoon/blob/master/1859.cpp)
+    string
+    |2000|Reverse Prefix of Word|||[📜](https://github.com/yarncha/baekjoon/blob/master/2000.cpp)
+    string
 
 </div>
 </details>
-
-✨ = 스스로 잘 풀었다고 생각     
-🤔 = 어려웠음     
-📝 = 주석 꼼꼼히 작성함 (참고하기 좋다)
-👀 = 답지 참고
