@@ -27,6 +27,7 @@ mono_crash.*
 [Rr]elease/
 [Rr]eleases/
 x64/
+leetcode/x64/
 x86/
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
@@ -36,6 +37,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+leetcode/[Ll]og/
+leetcode/[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -46,8 +49,8 @@ bld/
 Generated\ Files/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+leetcode/[Tt]est[Rr]esult*/
+leetcode/[Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
@@ -55,8 +58,8 @@ TestResult.xml
 nunit-*.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
+leetcode/[Dd]ebugPS/
+leetcode/[Rr]eleasePS/
 dlldata.c
 
 # Benchmark Results
@@ -365,4 +368,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio
-*.obj
+
+*.tlog
