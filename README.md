@@ -206,6 +206,7 @@
 | 509 | Fibonacci Number | DP | | [📜](./leetcode/509.cpp) |
 | 611 | Valid Triangle Number | | | [📜](./leetcode/611.cpp) |
 | 709 | To Lower Case | string | | [📜](./leetcode/709.cpp) |
+| 740 | Delete and Earn | DP | | [📜](./leetcode/740.cpp) |
 | 746 | Min Cost Climbing Stairs | DP | | [📜](./leetcode/746.cpp), [📜0ms Runtime Solution](./leetcode/746_better.cpp) |
 | 804 | Unique Morse Code Words | string | | [📜](./leetcode/804.cpp) |
 | 844 | Backspace String Compare | stack | | [📜](./leetcode/844.cpp) |
