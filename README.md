@@ -185,6 +185,7 @@
 | --- | ------- | ----- | ---- | :--------------------: |
 | 1   | Two Sum |       |      | [📜](./leetcode/1.cpp) |
 | 20 | Valid Parentheses | | | [📜](./leetcode/20.cpp) |
+| 45 | Jump Game II | DP | | [📜](./leetcode/45.cpp) |
 | 53 | Maximum Subarray | DP | later, try this problem with divide and conquer | [📜](./leetcode/53.cpp) |
 | 55 | Jump Game | DP | | [📜](./leetcode/55.cpp), [📜👀](./leetcode/55_better.cpp) |
 | 70 | Climbing Stairs | | | [📜](./leetcode/70.cpp) |
