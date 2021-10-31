@@ -624,8 +624,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\README.md" />
     <None Include=".editorconfig" />
-    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
