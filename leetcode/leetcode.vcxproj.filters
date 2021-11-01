@@ -210,6 +210,9 @@
     <ClCompile Include="45.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="918.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
