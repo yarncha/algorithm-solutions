@@ -195,6 +195,7 @@
 | 121 | Best Time to Buy and Sell Stock | DP | | [📜](./leetcode/121.cpp) |
 | 136 | Single Number | | bit manipulation | [📜](./leetcode/136.cpp) |
 | 145 | Binary Tree Postorder Traversal | | | [📜](./leetcode/145.cpp) |
+| 152 | Maximum Product Subarray✨ | DP | | [📜](./leetcode/152.cpp) |
 | 162 | Find Peak Element | | | [📜](./leetcode/162.cpp) |
 | 198 | House Robber🤔 | DP | wrong several times | [📜](./leetcode/198.cpp) |
 | 206 | Reverse Linked List | recursion, linked list | | [📜](./leetcode/206.cpp) , [📜with recursion](./leetcode/206_recursive.cpp) |
