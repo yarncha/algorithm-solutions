@@ -19,7 +19,7 @@
 
 ✨ = 스스로 잘 풀었다고 생각  
 🤔 = 어려웠음  
-📝 = 주석 꼼꼼히 작성함 (참고하기 좋다)  
+✏ = 주석 꼼꼼히 작성함 (참고하기 좋다)  
 👀 = 답지 참고
 
 ## Baekjoon
@@ -116,8 +116,8 @@
 | 10951 | A+B - 4 | | | [📜](./baekjoon/10951.cpp) |
 | 10952 | A+B - 5 | | | [📜](./baekjoon/10952.cpp) |
 | 10971 | 외판원 순회 2 | | | [📜](./baekjoon/10971.cpp) |
-| 10972 | 다음 순열📝 | | | [📜](./baekjoon/10972.cpp), [📜next_permutation 직접 구현해본 코드](./baekjoon/10972_ver2.cpp) |
-| 10973 | 이전 순열📝 | | | [📜](./baekjoon/10973.cpp), [📜prev_permutation 직접 구현해본 코드](./baekjoon/10973_ver2.cpp) |
+| 10972 | 다음 순열 | | | [📜✏](./baekjoon/10972.cpp), [📜✏next_permutation 직접 구현해본 코드](./baekjoon/10972_ver2.cpp) |
+| 10973 | 이전 순열 | | | [📜✏](./baekjoon/10973.cpp), [📜✏prev_permutation 직접 구현해본 코드](./baekjoon/10973_ver2.cpp) |
 | 10974 | 모든 순열 | | | [📜](./baekjoon/10974.cpp) |
 | 10998 | AxB | | | [📜](./baekjoon/10998.cpp) |
 | 11005 | 진법 변환 2 | | | [📜](./baekjoon/11005.cpp) |
@@ -213,7 +213,7 @@
 | 804 | Unique Morse Code Words | string | | [📜](./leetcode/804.cpp) |
 | 844 | Backspace String Compare | stack | | [📜](./leetcode/844.cpp) |
 | 894 | All Possible Full Binary Trees | | 어려웠음 | [📜](./leetcode/894.cpp) |
-| 918 | Maximum Sum Circular Subarray🤔 | DP | | [📜👀](./leetcode/918.cpp) |
+| 918 | Maximum Sum Circular Subarray🤔 | DP | | [📜👀✏](./leetcode/918.cpp) |
 | 921 | Minimum Add to Make Parentheses Valid | stack | | [📜](./leetcode/921.cpp) |
 | 1004 | Max Consecutive Ones III | Sliding Window | | [📜](./leetcode/1004.cpp) |
 | 1021 | Remove Outermost Parentheses | stack | | [📜](./leetcode/1021.cpp) |
