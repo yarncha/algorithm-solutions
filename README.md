@@ -231,6 +231,7 @@
 | 1480 | Running Sum of 1d Array | | | [📜](./leetcode/1480.cpp) |
 | 1512 | Number of Good Pairs | | | [📜](./leetcode/1512.cpp) |
 | 1528 | Shuffle String | string | | [📜](./leetcode/1528.cpp) |
+| 1567 | Maximum Length of Subarray With Positive Product | DP | | [📜](./leetcode/1567.cpp) |
 | 1598 | Crawler Log Folder | | | [📜](./leetcode/1598.cpp) |
 | 1662 | Check If Two String Arrays are Equivalent | string | | [📜](./leetcode/1662.cpp) |
 | 1641 | Count Sorted Vowel Strings | DP | | [📜](./leetcode/1641.cpp) |
