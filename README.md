@@ -203,6 +203,7 @@
 | 213 | House Robber II | DP | | [📜](./leetcode/213.cpp) |
 | 237 | Delete Node in a Linked List | | | [📜](./leetcode/237.cpp) |
 | 283 | Move Zeroes | | | [📜](./leetcode/283.cpp) |
+| 309 | Best Time to Buy and Sell Stock with Cooldown | DP | | [📜👀✏](./leetcode/309.cpp) |
 | 338 | Counting Bits | DP | | [📜](./leetcode/338.cpp) |
 | 344 | Reverse String | | | [📜](./leetcode/344.cpp) |
 | 392 | Is Subsequence | | | [📜](./leetcode/392.cpp) |
@@ -210,6 +211,7 @@
 | 509 | Fibonacci Number | DP | | [📜](./leetcode/509.cpp) |
 | 611 | Valid Triangle Number | | | [📜](./leetcode/611.cpp) |
 | 709 | To Lower Case | string | | [📜](./leetcode/709.cpp) |
+| 714 | Best Time to Buy and Sell Stock with Transaction Fee | DP | 309번과 비슷하게 풀음 | [📜](./leetcode/714.cpp) |
 | 740 | Delete and Earn | DP | | [📜](./leetcode/740.cpp) |
 | 746 | Min Cost Climbing Stairs | DP | | [📜](./leetcode/746.cpp), [📜0ms Runtime Solution](./leetcode/746_better.cpp) |
 | 804 | Unique Morse Code Words | string | | [📜](./leetcode/804.cpp) |
@@ -218,7 +220,7 @@
 | 918 | Maximum Sum Circular Subarray🤔 | DP | | [📜👀✏](./leetcode/918.cpp) |
 | 921 | Minimum Add to Make Parentheses Valid | stack | | [📜](./leetcode/921.cpp) |
 | 1004 | Max Consecutive Ones III | Sliding Window | | [📜](./leetcode/1004.cpp) |
-| 1014 | Best Sightseeing Pair | DP | DP에 이렇게 풀 수 있는 문제 많은듯 (참고 : 121, 1014) | [📜✏](./leetcode/1014.cpp) |
+| 1014 | Best Sightseeing Pair | DP | DP에 이렇게 풀 수 있는 문제 많은듯 (참고 : 121, 1014) | [📜👀](./leetcode/1014.cpp) |
 | 1021 | Remove Outermost Parentheses | stack | | [📜](./leetcode/1021.cpp) |
 | 1043 | Partition Array for Maximum Sum🤔 | DP | | [📜](./leetcode/1043.cpp) |
 | 1047 | Remove All Adjacent Duplicates In String | stack | | [📜](./leetcode/1047.cpp) |
