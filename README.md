@@ -185,6 +185,7 @@
 | --- | ------- | ----- | ---- | :--------------------: |
 | 1   | Two Sum |       |      | [📜](./leetcode/1.cpp) |
 | 20 | Valid Parentheses | | | [📜](./leetcode/20.cpp) |
+| 42 | Trapping Rain Water | Two Pointers | | [📜👀✏](./leetcode/42.cpp) |
 | 45 | Jump Game II | DP | | [📜](./leetcode/45.cpp) |
 | 53 | Maximum Subarray | DP | later, try this problem with divide and conquer | [📜](./leetcode/53.cpp) |
 | 55 | Jump Game | DP | | [📜](./leetcode/55.cpp), [📜👀](./leetcode/55_better.cpp) |
@@ -195,6 +196,7 @@
 | 121 | Best Time to Buy and Sell Stock | DP | DP에 이렇게 풀 수 있는 문제 많은듯 (참고 : 121, 1014) | [📜](./leetcode/121.cpp), [📜better runtime](./leetcode/121_better.cpp)  |
 | 122 | Best Time to Buy and Sell Stock II | | DP | [📜](./leetcode/122.cpp) |
 | 136 | Single Number | | bit manipulation | [📜](./leetcode/136.cpp) |
+| 139 | Word Break🤔 | DP | | [📜👀✏](./leetcode/139.cpp) |
 | 145 | Binary Tree Postorder Traversal | | | [📜](./leetcode/145.cpp) |
 | 152 | Maximum Product Subarray✨ | DP | | [📜](./leetcode/152.cpp) |
 | 162 | Find Peak Element | | | [📜](./leetcode/162.cpp) |
