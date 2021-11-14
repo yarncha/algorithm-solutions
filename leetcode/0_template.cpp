@@ -16,7 +16,7 @@ public:
 //int main(void) {
 //	Solution sol = Solution();
 //
-//	sol.qwer();
+//	cout << sol.qwer();
 //
 //	return 0;
 //}
