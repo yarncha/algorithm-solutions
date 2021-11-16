@@ -190,6 +190,7 @@
 | 53 | Maximum Subarray | DP | later, try this problem with divide and conquer | [📜](./leetcode/53.cpp) |
 | 55 | Jump Game | DP | | [📜](./leetcode/55.cpp), [📜👀](./leetcode/55_better.cpp) |
 | 70 | Climbing Stairs | | | [📜](./leetcode/70.cpp) |
+| 91 | Decode Ways✨ | DP | 문제를 읽으면서 반례를 꼼꼼히 생각해서 각 케이스를 구분해 가면서 풀었더니 한 번만에 맞았다ㅎㅎ | [📜](./leetcode/91.cpp) |
 | 104 | Maximum Depth of Binary Tree | recursion, tree | | [📜](./leetcode/104.cpp) |
 | 118 | Pascal's Triangle | DP | | [📜](./leetcode/118.cpp) |
 | 119 | Pascal's Triangle II | DP | | [📜](./leetcode/119.cpp) |
@@ -210,6 +211,7 @@
 | 344 | Reverse String | | | [📜](./leetcode/344.cpp) |
 | 392 | Is Subsequence | | | [📜](./leetcode/392.cpp) |
 | 412 | Fizz Buzz | | | [📜](./leetcode/412.cpp) |
+| 413 | Arithmetic Slices | DP | | [📜](./leetcode/413.cpp) |
 | 509 | Fibonacci Number | DP | | [📜](./leetcode/509.cpp) |
 | 611 | Valid Triangle Number | | | [📜](./leetcode/611.cpp) |
 | 709 | To Lower Case | string | | [📜](./leetcode/709.cpp) |
