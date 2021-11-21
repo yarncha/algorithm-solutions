@@ -191,6 +191,7 @@
 | 55 | Jump Game | DP | | [📜](./leetcode/55.cpp), [📜👀](./leetcode/55_better.cpp) |
 | 70 | Climbing Stairs | | | [📜](./leetcode/70.cpp) |
 | 91 | Decode Ways✨ | DP | 문제를 읽으면서 반례를 꼼꼼히 생각해서 각 케이스를 구분해 가면서 풀었더니 한 번만에 맞았다ㅎㅎ | [📜](./leetcode/91.cpp) |
+| 96 | Unique Binary Search Trees | DP | | [📜](./leetcode/96.cpp) |
 | 104 | Maximum Depth of Binary Tree | recursion, tree | | [📜](./leetcode/104.cpp) |
 | 118 | Pascal's Triangle | DP | | [📜](./leetcode/118.cpp) |
 | 119 | Pascal's Triangle II | DP | | [📜](./leetcode/119.cpp) |
@@ -205,6 +206,7 @@
 | 206 | Reverse Linked List | recursion, linked list | | [📜](./leetcode/206.cpp) , [📜with recursion](./leetcode/206_recursive.cpp) |
 | 213 | House Robber II | DP | | [📜](./leetcode/213.cpp) |
 | 237 | Delete Node in a Linked List | | | [📜](./leetcode/237.cpp) |
+| 264 | Ugly Number II | DP | | [📜](./leetcode/264.cpp) |
 | 283 | Move Zeroes | | | [📜](./leetcode/283.cpp) |
 | 309 | Best Time to Buy and Sell Stock with Cooldown | DP | | [📜👀✏](./leetcode/309.cpp) |
 | 338 | Counting Bits | DP | | [📜](./leetcode/338.cpp) |
