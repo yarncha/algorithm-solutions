@@ -252,6 +252,12 @@
     <ClCompile Include="96.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="931.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="120.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />

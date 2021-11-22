@@ -195,6 +195,7 @@
 | 104 | Maximum Depth of Binary Tree | recursion, tree | | [📜](./leetcode/104.cpp) |
 | 118 | Pascal's Triangle | DP | | [📜](./leetcode/118.cpp) |
 | 119 | Pascal's Triangle II | DP | | [📜](./leetcode/119.cpp) |
+| 120 | Triangle | DP | 931번 문제와 비슷 | [📜](./leetcode/120.cpp) |
 | 121 | Best Time to Buy and Sell Stock | DP | DP에 이렇게 풀 수 있는 문제 많은듯 (참고 : 121, 1014) | [📜](./leetcode/121.cpp), [📜better runtime](./leetcode/121_better.cpp)  |
 | 122 | Best Time to Buy and Sell Stock II | | DP | [📜](./leetcode/122.cpp) |
 | 136 | Single Number | | bit manipulation | [📜](./leetcode/136.cpp) |
@@ -225,6 +226,7 @@
 | 894 | All Possible Full Binary Trees | | 어려웠음 | [📜](./leetcode/894.cpp) |
 | 918 | Maximum Sum Circular Subarray🤔 | DP | | [📜👀✏](./leetcode/918.cpp) |
 | 921 | Minimum Add to Make Parentheses Valid | stack | | [📜](./leetcode/921.cpp) |
+| 931 | Minimum Falling Path Sum | DP | 120번 문제와 비슷함 | [📜](./leetcode/931.cpp) |
 | 1004 | Max Consecutive Ones III | Sliding Window | | [📜](./leetcode/1004.cpp) |
 | 1014 | Best Sightseeing Pair | DP | DP에 이렇게 풀 수 있는 문제 많은듯 (참고 : 121, 1014) | [📜👀](./leetcode/1014.cpp) |
 | 1021 | Remove Outermost Parentheses | stack | | [📜](./leetcode/1021.cpp) |
