@@ -209,6 +209,7 @@
 | 237 | Delete Node in a Linked List | | | [📜](./leetcode/237.cpp) |
 | 264 | Ugly Number II | DP | | [📜](./leetcode/264.cpp) |
 | 283 | Move Zeroes | | | [📜](./leetcode/283.cpp) |
+| 304 | Range Sum Query 2D - Immutable | DP | 1314번 문제와 비슷함 | [📜](./leetcode/304.cpp) |
 | 309 | Best Time to Buy and Sell Stock with Cooldown | DP | | [📜👀✏](./leetcode/309.cpp) |
 | 338 | Counting Bits | DP | | [📜](./leetcode/338.cpp) |
 | 344 | Reverse String | | | [📜](./leetcode/344.cpp) |
@@ -238,7 +239,7 @@
 | 1249 | Minimum Remove to Make Valid Parentheses | stack | | [📜](./leetcode/1249.cpp) |
 | 1277 | Count Square Submatrices with All Ones | DP | | [📜](./leetcode/1277.cpp) |
 | 1304 | Find N Unique Integers Sum up to Zero | | | [📜](./leetcode/1304.cpp), [📜best solution](./leetcode/1304_best.cpp) |
-| 1314 | Matrix Block Sum | | | [📜](./leetcode/1314.cpp) |
+| 1314 | Matrix Block Sum | DP | | [📜](./leetcode/1314.cpp) |
 | 1470 | Shuffle the Array | | | [📜](./leetcode/1470.cpp) |
 | 1480 | Running Sum of 1d Array | | | [📜](./leetcode/1480.cpp) |
 | 1512 | Number of Good Pairs | | | [📜](./leetcode/1512.cpp) |
