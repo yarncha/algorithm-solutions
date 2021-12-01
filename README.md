@@ -191,6 +191,7 @@
 | 55 | Jump Game | DP | | [📜](./leetcode/55.cpp), [📜👀](./leetcode/55_better.cpp) |
 | 62 | Unique Paths | DP | | [📜](./leetcode/62.cpp) |
 | 63 | Unique Paths II | DP | | [📜](./leetcode/63.cpp) |
+| 64 | Minimum Path Sum | DP | | [📜](./leetcode/64.cpp) |
 | 70 | Climbing Stairs | | | [📜](./leetcode/70.cpp) |
 | 91 | Decode Ways✨ | DP | 문제를 읽으면서 반례를 꼼꼼히 생각해서 각 케이스를 구분해 가면서 풀었더니 한 번만에 맞았다ㅎㅎ | [📜](./leetcode/91.cpp) |
 | 96 | Unique Binary Search Trees | DP | | [📜](./leetcode/96.cpp) |
@@ -208,6 +209,7 @@
 | 198 | House Robber🤔 | DP | wrong several times | [📜](./leetcode/198.cpp) |
 | 206 | Reverse Linked List | recursion, linked list | | [📜](./leetcode/206.cpp) , [📜with recursion](./leetcode/206_recursive.cpp) |
 | 213 | House Robber II | DP | | [📜](./leetcode/213.cpp) |
+| 221 | Maximal Square | DP | | [📜👀](./leetcode/221.cpp) |
 | 237 | Delete Node in a Linked List | | | [📜](./leetcode/237.cpp) |
 | 264 | Ugly Number II | DP | | [📜](./leetcode/264.cpp) |
 | 283 | Move Zeroes | | | [📜](./leetcode/283.cpp) |
