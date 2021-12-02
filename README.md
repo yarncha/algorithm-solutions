@@ -184,6 +184,7 @@
 | No. | Name    | Group | Memo |        Solution        |
 | --- | ------- | ----- | ---- | :--------------------: |
 | 1   | Two Sum |       |      | [📜](./leetcode/1.cpp) |
+| 5 | Longest Palindromic Substring | DP | | [📜👀✏](./leetcode/5.cpp) |
 | 20 | Valid Parentheses | | | [📜](./leetcode/20.cpp) |
 | 42 | Trapping Rain Water | Two Pointers | | [📜👀✏](./leetcode/42.cpp) |
 | 45 | Jump Game II | DP | | [📜](./leetcode/45.cpp) |
@@ -221,6 +222,7 @@
 | 412 | Fizz Buzz | | | [📜](./leetcode/412.cpp) |
 | 413 | Arithmetic Slices | DP | | [📜](./leetcode/413.cpp) |
 | 509 | Fibonacci Number | DP | | [📜](./leetcode/509.cpp) |
+| 516 | Longest Palindromic Subsequence | DP | | [📜](./leetcode/516.cpp) |
 | 611 | Valid Triangle Number | | | [📜](./leetcode/611.cpp) |
 | 709 | To Lower Case | string | | [📜](./leetcode/709.cpp) |
 | 714 | Best Time to Buy and Sell Stock with Transaction Fee | DP | 309번과 비슷하게 풀음 | [📜](./leetcode/714.cpp) |
