@@ -214,10 +214,12 @@
 | 237 | Delete Node in a Linked List | | | [📜](./leetcode/237.cpp) |
 | 264 | Ugly Number II | DP | | [📜](./leetcode/264.cpp) |
 | 283 | Move Zeroes | | | [📜](./leetcode/283.cpp) |
+| 300 | Longest Increasing Subsequence | DP | | [📜](./leetcode/300.cpp) |
 | 304 | Range Sum Query 2D - Immutable | DP | 1314번 문제와 비슷함 | [📜](./leetcode/304.cpp) |
 | 309 | Best Time to Buy and Sell Stock with Cooldown | DP | | [📜👀✏](./leetcode/309.cpp) |
 | 338 | Counting Bits | DP | | [📜](./leetcode/338.cpp) |
 | 344 | Reverse String | | | [📜](./leetcode/344.cpp) |
+| 376 | Wiggle Subsequence | DP | | [📜](./leetcode/376.cpp) |
 | 392 | Is Subsequence | | | [📜](./leetcode/392.cpp) |
 | 412 | Fizz Buzz | | | [📜](./leetcode/412.cpp) |
 | 413 | Arithmetic Slices | DP | | [📜](./leetcode/413.cpp) |
